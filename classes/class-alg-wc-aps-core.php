@@ -1,8 +1,8 @@
 <?php
 /**
- * Compare products for WooCommerce  - Core Class
+ * Ajax Product Search for WooCommerce  - Core Class
  *
- * @version 1.1.0
+ * @version 1.0.0
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -54,7 +54,95 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @since   1.0.0
 		 */
 		function __construct() {
+			// Set up localization
+			$this->handle_localization();
 
+			// Init admin part
+			add_action( 'woocommerce_init', array( $this, 'init_admin' ), 20 );
+
+			if ( true === filter_var( get_option( Alg_WC_APS_Settings_General::OPTION_ENABLE_PLUGIN, true ), FILTER_VALIDATE_BOOLEAN ) ) {
+
+				// Enqueue scripts
+				add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+			}
+		}
+
+		/**
+		 * Load scripts and styles
+		 *
+		 * @version 1.1.0
+		 * @since   1.0.0
+		 */
+		function enqueue_scripts() {
+			$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+
+			// Select 2
+			wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'alg-wc-aps-select2' );
+			wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
+			wp_enqueue_style( 'alg-wc-aps-select2' );
+
+			// Main js file
+			$js_file = 'assets/dist/frontend/js/alg-wc-aps'.$suffix.'.js';
+			$js_ver = date( "ymd-Gis", filemtime( ALG_WC_APS_DIR . $js_file ) );
+			wp_register_script( 'alg-wc-wish-list', ALG_WC_APS_URL . $js_file, array( 'jquery' ), $js_ver, true );
+			wp_enqueue_script( 'alg-wc-wish-list' );
+		}
+
+		/**
+		 * Handle Localization
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		public function handle_localization() {
+			$locale = apply_filters( 'plugin_locale', get_locale(), 'alg-ajax-product-search-for-wc' );
+			load_textdomain( 'alg-ajax-product-search-for-wc', WP_LANG_DIR . dirname( ALG_WC_APS_BASENAME ) . 'alg-ajax-product-search-for-wc' . '-' . $locale . '.mo' );
+			load_plugin_textdomain( 'alg-ajax-product-search-for-wc', false, dirname( ALG_WC_APS_BASENAME ) . '/languages/' );
+		}
+
+		/**
+		 * Init admin fields
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		public function init_admin() {
+			if ( is_admin() ) {
+				add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
+				add_filter( 'plugin_action_links_' . ALG_WC_APS_BASENAME, array( $this, 'action_links' ) );
+			}
+
+			// Admin setting options inside WooCommerce
+			new Alg_WC_APS_Settings_General();
+
+			if ( is_admin() && get_option( 'alg_wc_aps_version', '' ) !== $this->version ) {
+				update_option( 'alg_wc_aps_version', $this->version );
+			}
+		}
+
+		/**
+		 * Add settings tab to WooCommerce settings.
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		function add_woocommerce_settings_tab( $settings ) {
+			$settings[] = new Alg_WC_APS_Settings();
+			return $settings;
+		}
+
+		/**
+		 * Show action links on the plugin screen
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 * @param   mixed $links
+		 * @return  array
+		 */
+		function action_links( $links ) {
+			$custom_links = array( '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alg_wc_aps' ) . '">' . __( 'Settings', 'woocommerce' ) . '</a>' );
+			return array_merge( $custom_links, $links );
 		}
 	}
 }

@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Ajax Product Search for WooCommerce
-Description: Search WooCommerce products easily using an autocomplete feature
+Plugin Name: ALG - Ajax Product Search for WooCommerce
+Description: Provides an autocomplete feature to search WooCommerce products
 Version: 1.0.0
 Author: Algoritmika Ltd
 Copyright: © 2017 Algoritmika Ltd.
