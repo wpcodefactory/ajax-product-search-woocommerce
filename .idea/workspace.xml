@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f335cf65-7e18-4e3c-a35d-691b2f960382" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php" afterPath="$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js" afterPath="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js" afterPath="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js" afterPath="$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" afterPath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +24,29 @@
       <file leaf-file-name="class-alg-wc-aps-core.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+            <state relative-caret-position="684">
+              <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="63" />
               <folding>
                 <element signature="e#6#134#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alg-wc-aps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding>
+                <marker date="1487827328083" expanded="true" signature="271:1186" ph="{...}" />
+                <marker date="1487827328083" expanded="true" signature="303:1150" ph="{...}" />
+                <marker date="1487827328083" expanded="true" signature="438:1146" ph="{...}" />
+                <marker date="1487827328083" expanded="true" signature="491:1140" ph="{...}" />
+                <marker date="1487827328083" expanded="true" signature="530:1070" ph="{&quot;url&quot;: alg_wc_aps.ajaxurl...}" />
+                <marker date="1487827328083" expanded="true" signature="834:1046" ph="{...}" />
+                <marker date="1487827328083" expanded="true" signature="887:1038" ph="{&quot;results&quot;: data.data.items...}" />
+                <marker date="1487827328083" expanded="true" signature="941:1030" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,65 +55,47 @@
       <file leaf-file-name="select2-product-finder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="361">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="class-alg-wc-aps-product-searcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alg-wc-aps.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="37" lean-forward="false" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1487777355917" expanded="true" signature="279:409" ph="{...}" />
-                <marker date="1487777355917" expanded="true" signature="311:374" ph="{...}" />
-                <marker date="1487777355917" expanded="true" signature="360:369" ph="{...}" />
+                <element signature="e#6#140#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alg-wc-aps.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js">
+      <file leaf-file-name="class-wp-query.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../core/wp-includes/class-wp-query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alg-ajax-product-search-for-woocommerce.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="1502">
+              <caret line="1748" column="38" lean-forward="false" selection-start-line="1748" selection-start-column="24" selection-end-line="1748" selection-end-column="38" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1485461673950" expanded="true" signature="77053:77148" ph="SELECT ${$di... " />
+                <marker date="1485461673950" expanded="true" signature="85381:85479" ph="SELECT ${$fo... $" />
+                <marker date="1485461673950" expanded="true" signature="88297:88405" ph="SELECT ${$fo... " />
+                <marker date="1485461673950" expanded="true" signature="90713:90798" ph="SELECT ${{$w... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-alg-wc-aps-product-searcher-ajax-manager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+              <folding>
+                <element signature="e#6#153#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +121,9 @@
       <find>dirs.js</find>
       <find>js-custom</find>
       <find>add_woocommerce_settings_tab</find>
+      <find>$toggle_wish_list_item_action</find>
+      <find>strin</find>
+      <find>posts_per_page</find>
     </findStrings>
     <replaceStrings>
       <replace>_APS_</replace>
@@ -125,6 +131,7 @@
       <replace>_aps_</replace>
       <replace>js-frontend-custom</replace>
       <replace>'alg-ajax-product-search-for-wc'</replace>
+      <replace>$action</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -142,11 +149,15 @@
         <option value="$PROJECT_DIR$/assets/src/frontend/js/select2-manager.js" />
         <option value="$PROJECT_DIR$/assets/src/frontend/js/product-finder.js" />
         <option value="$PROJECT_DIR$/assets/src/frontend/js/main.js" />
-        <option value="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js" />
         <option value="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js" />
-        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
-        <option value="$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-enqueuer.php" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-scripts-manager.php" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php" />
+        <option value="$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php" />
+        <option value="$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js" />
       </list>
     </option>
   </component>
@@ -220,6 +231,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wp-tests\wp\content\plugins\alg-ajax-product-search-for-woocommerce\classes" />
       <recent name="C:\xampp\htdocs\wp-tests\wp\content\plugins\alg-ajax-product-search-for-woocommerce\assets\src\admin" />
     </key>
   </component>
@@ -295,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487712599877</updated>
       <workItem from="1487712601407" duration="2632000" />
-      <workItem from="1487771007920" duration="5844000" />
+      <workItem from="1487771007920" duration="21573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8476000" />
+    <option name="totallyTimeSpent" value="24205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -311,6 +323,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -320,7 +333,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -394,34 +406,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/main.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1487777355917" expanded="true" signature="279:409" ph="{...}" />
-            <marker date="1487777355917" expanded="true" signature="311:374" ph="{...}" />
-            <marker date="1487777355917" expanded="true" signature="360:369" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,29 +422,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-scripts-manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#149#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="88" column="52" lean-forward="false" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+        <state relative-caret-position="684">
+          <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="63" />
           <folding>
             <element signature="e#6#134#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
+    <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="119">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/assets/dist/frontend/js/alg-wc-aps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="646">
+          <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <marker date="1487827328083" expanded="true" signature="271:1186" ph="{...}" />
+            <marker date="1487827328083" expanded="true" signature="303:1150" ph="{...}" />
+            <marker date="1487827328083" expanded="true" signature="438:1146" ph="{...}" />
+            <marker date="1487827328083" expanded="true" signature="491:1140" ph="{...}" />
+            <marker date="1487827328083" expanded="true" signature="530:1070" ph="{&quot;url&quot;: alg_wc_aps.ajaxurl...}" />
+            <marker date="1487827328083" expanded="true" signature="834:1046" ph="{...}" />
+            <marker date="1487827328083" expanded="true" signature="887:1038" ph="{&quot;results&quot;: data.data.items...}" />
+            <marker date="1487827328083" expanded="true" signature="941:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../core/wp-includes/class-wp-query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1502">
+          <caret line="1748" column="38" lean-forward="false" selection-start-line="1748" selection-start-column="24" selection-end-line="1748" selection-end-column="38" />
+          <folding>
+            <marker date="1485461673950" expanded="true" signature="77053:77148" ph="SELECT ${$di... " />
+            <marker date="1485461673950" expanded="true" signature="85381:85479" ph="SELECT ${$fo... $" />
+            <marker date="1485461673950" expanded="true" signature="88297:88405" ph="SELECT ${$fo... " />
+            <marker date="1485461673950" expanded="true" signature="90713:90798" ph="SELECT ${{$w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+          <folding>
+            <element signature="e#6#153#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="37" lean-forward="false" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+          <folding>
+            <element signature="e#6#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

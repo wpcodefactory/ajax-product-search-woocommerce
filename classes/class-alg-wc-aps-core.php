@@ -30,6 +30,13 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		protected static $_instance = null;
 
 		/**
+		 * @var Alg_WC_APS_Product_Searcher
+		 */
+		private $searcher;
+
+
+
+		/**
 		 * Main Alg_WC_APS_Core Instance
 		 *
 		 * Ensures only one instance of Alg_WC_APS_Core is loaded or can be loaded.
@@ -62,8 +69,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 
 			if ( true === filter_var( get_option( Alg_WC_APS_Settings_General::OPTION_ENABLE_PLUGIN, true ), FILTER_VALIDATE_BOOLEAN ) ) {
 
-				// Enqueue scripts
-				add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+				$this->init_frontend();
 			}
 		}
 
@@ -76,17 +82,36 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		function enqueue_scripts() {
 			$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-			// Select 2
+			// Main js file
+			$js_file = 'assets/dist/frontend/js/alg-wc-aps' . $suffix . '.js';
+			$js_ver  = date( "ymd-Gis", filemtime( ALG_WC_APS_DIR . $js_file ) );
+			wp_register_script( 'alg-wc-aps', ALG_WC_APS_URL . $js_file, array( 'jquery' ), $js_ver, true );
+			wp_enqueue_script( 'alg-wc-aps' );
+
+			$localize_obj = array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) );
+			$localize_obj = apply_filters( 'alg-wc-aps-localize', $localize_obj, 'alg-wc-aps' );
+			wp_localize_script( 'alg-wc-aps', 'alg_wc_aps', $localize_obj );
+
+			// Select2
 			wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
 			wp_enqueue_script( 'alg-wc-aps-select2' );
 			wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
 			wp_enqueue_style( 'alg-wc-aps-select2' );
+		}
 
-			// Main js file
-			$js_file = 'assets/dist/frontend/js/alg-wc-aps'.$suffix.'.js';
-			$js_ver = date( "ymd-Gis", filemtime( ALG_WC_APS_DIR . $js_file ) );
-			wp_register_script( 'alg-wc-wish-list', ALG_WC_APS_URL . $js_file, array( 'jquery' ), $js_ver, true );
-			wp_enqueue_script( 'alg-wc-wish-list' );
+		/**
+		 * Initialize frontend
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		private function init_frontend(){
+			add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+
+			// Initialize products searcher
+			$searcher = new Alg_WC_APS_Product_Searcher();
+			$this->set_searcher( $searcher );
+			$searcher->init();
 		}
 
 		/**
@@ -144,5 +169,21 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 			$custom_links = array( '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alg_wc_aps' ) . '">' . __( 'Settings', 'woocommerce' ) . '</a>' );
 			return array_merge( $custom_links, $links );
 		}
+
+		/**
+		 * @return Alg_WC_APS_Product_Searcher
+		 */
+		public function get_searcher() {
+			return $this->searcher;
+		}
+
+		/**
+		 * @param Alg_WC_APS_Product_Searcher $searcher
+		 */
+		public function set_searcher( $searcher ) {
+			$this->searcher = $searcher;
+		}
+
+
 	}
 }
