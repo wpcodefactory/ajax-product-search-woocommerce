@@ -59,8 +59,8 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 		 * @param array $instance Previously saved values from database.
 		 */
 		public function form( $instance ) {
-			$title      = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'Comparison list', 'alg-ajax-product-search-for-wc' );
-			$link_label = ! empty( $instance['placeholder'] ) ? $instance['placeholder'] : esc_html__( 'View comparison list', 'alg-ajax-product-search-for-wc' );
+			$title       = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'Search products', 'alg-ajax-product-search-for-wc' );
+			$placeholder = ! empty( $instance['placeholder'] ) ? $instance['placeholder'] : esc_html__( 'Search products', 'alg-ajax-product-search-for-wc' );
 			?>
             <p>
                 <label

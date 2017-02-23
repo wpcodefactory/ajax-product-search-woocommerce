@@ -24,6 +24,7 @@ jQuery(function ($) {
 			search_inputs.each(function () {
 				var this_input = $(this);
 				this_input.select2({
+					maximumInputLength: 20,
 					minimumInputLength: 3,
 					placeholder: this_input.attr('placeholder') || '',
 					ajax: {
@@ -50,10 +51,35 @@ jQuery(function ($) {
 					},
 					escapeMarkup: function (markup) {
 						return markup;
+					},
+					language: {
+						inputTooShort: function (args) {
+							var remainingChars = args.minimum - args.input.length;
+							var message = alg_wc_aps.select2_args.inputTooShort;
+							message = message.replace("%d", remainingChars);
+							return message;
+						},
+						inputTooLong: function (args) {
+							var overChars = args.input.length - args.maximum;
+							var message = alg_wc_aps.select2_args.inputTooLong;
+							message = message.replace("%d", overChars);
+							return message;
+						},
+						errorLoading: function () {
+							return alg_wc_aps.select2_args.errorLoading;
+						},
+						loadingMore: function () {
+							return alg_wc_aps.select2_args.loadingMore;
+						},
+						searching: function () {
+							return alg_wc_aps.select2_args.searching;
+						},
+						noResults: function () {
+							return alg_wc_aps.select2_args.noResults;
+						}
 					}
 				});
 			});
-
 
 		}
 

@@ -16,6 +16,12 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 	class Alg_WC_APS_Settings_General extends Alg_WC_APS_Settings_Section {
 
 		const OPTION_ENABLE_PLUGIN = 'alg_wc_aps_enable';
+		const OPTION_SELECT2_ENABLE = 'alg_wc_aps_select2_enable';
+
+
+
+
+
 		//const OPTION_FONT_AWESOME  = 'alg_wc_cp_fontawesome';
 		//const OPTION_METABOX_PRO   = 'alg_wc_cp_cmb_pro';
 
@@ -59,14 +65,14 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 					'default'  => 'yes',
 					'type'     => 'checkbox',
 				),
-				/*array(
-					'title'    => __( 'Load FontAwesome', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Load most recent version of Font Awesome', 'alg-ajax-product-search-for-wc' ),
-					'desc_tip' => __( 'Only mark this if you are not loading Font Awesome nowhere else. Font Awesome is responsible for creating icons', 'alg-ajax-product-search-for-wc' ),
-					'id'       => self::OPTION_FONT_AWESOME,
+				array(
+					'title'    => __( 'Load Select2', 'alg-ajax-product-search-for-wc' ),
+					'desc'     => sprintf( __( 'Loads most recent version of <a target="_blank" href="%s">Select2</a>', 'alg-ajax-product-search-for-wc' ), 'https://select2.github.io/' ),
+					'desc_tip' => __( 'Mark this only if you are not loading Select2 nowhere else. Select2 is responsible for improving the html select element.', 'alg-ajax-product-search-for-wc' ).'<br />'.__( 'It is required for this plugin to work. If you are uncertain, please let it enabled.', 'alg-ajax-product-search-for-wc' ),
+					'id'       => self::OPTION_SELECT2_ENABLE,
 					'default'  => 'yes',
 					'type'     => 'checkbox',
-				),*/
+				),
 				array(
 					'type'     => 'sectionend',
 					'id'       => 'alg_wc_aps_opt',

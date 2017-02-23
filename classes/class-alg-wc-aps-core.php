@@ -93,10 +93,13 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 			wp_localize_script( 'alg-wc-aps', 'alg_wc_aps', $localize_obj );
 
 			// Select2
-			wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
-			wp_enqueue_script( 'alg-wc-aps-select2' );
-			wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
-			wp_enqueue_style( 'alg-wc-aps-select2' );
+			$select2_opt = get_option( Alg_WC_APS_Settings_General::OPTION_SELECT2_ENABLE, true );
+			if ( filter_var( $select2_opt, FILTER_VALIDATE_BOOLEAN ) !== false ) {
+				wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
+				wp_enqueue_script( 'alg-wc-aps-select2' );
+				wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
+				wp_enqueue_style( 'alg-wc-aps-select2' );
+			}
 		}
 
 		/**
@@ -140,6 +143,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 
 			// Admin setting options inside WooCommerce
 			new Alg_WC_APS_Settings_General();
+			new Alg_WC_APS_Settings_Texts();
 
 			if ( is_admin() && get_option( 'alg_wc_aps_version', '' ) !== $this->version ) {
 				update_option( 'alg_wc_aps_version', $this->version );
