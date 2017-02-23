@@ -20,9 +20,14 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		private $ajax_manager;
 
 		/**
-		 * @var Alg_WC_APS_Product_Searcher_Ajax_Manager
+		 * @var Alg_WC_APS_Product_Searcher_Scripts_Manager
 		 */
 		private $scripts_manager;
+
+		/**
+		 * @var Alg_WC_APS_Product_Searcher_Shortcode_Manager
+		 */
+		private $shortcode_manager;
 
 		/**
 		 * Informs the css class for the search input
@@ -39,18 +44,35 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		public function init() {
 			$this->init_ajax();
 			add_action( 'init', array( $this, 'init_scripts_manager' ) );
+			add_action( 'init', array( $this, 'init_shortcode_manager' ) );
 		}
 
 		/**
-		 * Initializes frontend.
+		 * Initializes scripts manager.
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
+		 * @return Alg_WC_APS_Product_Searcher_Shortcode_Manager
+		 */
+		public function init_shortcode_manager(){
+			$manager = $this->get_shortcode_manager();
+			if ( ! $manager ) {
+				$manager = new Alg_WC_APS_Product_Searcher_Shortcode_Manager();
+			}
+			return $manager;
+		}
+
+		/**
+		 * Initializes scripts manager.
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 * @return Alg_WC_APS_Product_Searcher_Scripts_Manager
 		 */
 		public function init_scripts_manager(){
 			$scripts_manager = $this->get_scripts_manager();
 			if ( ! $scripts_manager ) {
-				$scripts_manager = new Alg_WC_APS_Product_Scripts_Manager();
+				$scripts_manager = new Alg_WC_APS_Product_Searcher_Scripts_Manager();
 			}
 			return $scripts_manager;
 		}
@@ -67,7 +89,6 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				$ajax_manager = new Alg_WC_APS_Product_Searcher_Ajax_Manager();
 				$this->set_ajaxManager( $ajax_manager );
 			}
-
 		}
 
 		/**
@@ -123,7 +144,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		/**
 		 * @param Alg_WC_APS_Product_Searcher_Ajax_Manager $ajax_manager
 		 */
-		public function set_ajaxManager( $ajax_manager ) {
+		public function set_ajaxManager( Alg_WC_APS_Product_Searcher_Ajax_Manager $ajax_manager ) {
 			$this->ajax_manager = $ajax_manager;
 		}
 
@@ -135,9 +156,9 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		}
 
 		/**
-		 * @param Alg_WC_APS_Product_Searcher_Ajax_Manager $scripts_manager
+		 * @param Alg_WC_APS_Product_Searcher_Scripts_Manager $scripts_manager
 		 */
-		public function set_scripts_manager( $scripts_manager ) {
+		public function set_scripts_manager( Alg_WC_APS_Product_Searcher_Scripts_Manager $scripts_manager ) {
 			$this->scripts_manager = $scripts_manager;
 		}
 
@@ -153,6 +174,20 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		 */
 		public function set_search_input_css_selector( $search_input_css_selector ) {
 			$this->search_input_css_selector = $search_input_css_selector;
+		}
+
+		/**
+		 * @return Alg_WC_APS_Product_Searcher_Shortcode_Manager
+		 */
+		public function get_shortcode_manager() {
+			return $this->shortcode_manager;
+		}
+
+		/**
+		 * @param Alg_WC_APS_Product_Searcher_Shortcode_Manager $shortcode_manager
+		 */
+		public function set_shortcode_manager( $shortcode_manager ) {
+			$this->shortcode_manager = $shortcode_manager;
 		}
 
 

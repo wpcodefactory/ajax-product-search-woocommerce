@@ -11,11 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 } // Exit if accessed directly
 
-if ( ! class_exists( 'Alg_WC_APS_Product_Scripts_Manager' ) ) {
-	class Alg_WC_APS_Product_Scripts_Manager {
+if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Scripts_Manager' ) ) {
+	class Alg_WC_APS_Product_Searcher_Scripts_Manager {
 
 		/**
-		 * Initializes
+		 * Initializes.
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
@@ -27,7 +27,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Scripts_Manager' ) ) {
 		/**
 		 * Localizes scripts.
 		 *
-		 * Adds dynamic variables to javascript
+		 * Adds dynamic variables to javascript.
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
