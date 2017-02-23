@@ -17,12 +17,6 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 
 		const OPTION_ENABLE_PLUGIN = 'alg_wc_aps_enable';
 		const OPTION_SELECT2_ENABLE = 'alg_wc_aps_select2_enable';
-
-
-
-
-
-		//const OPTION_FONT_AWESOME  = 'alg_wc_cp_fontawesome';
 		//const OPTION_METABOX_PRO   = 'alg_wc_cp_cmb_pro';
 
 		/**
@@ -92,7 +86,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		 */
 		/*function get_meta_box_pro_description() {
 			$presentation   = __( 'Do you like the free version of this plugin? Imagine what the Pro version can do for you!', 'alg-ajax-product-search-for-wc' );
-			$url            = 'https://coder.fm/item/compare-products-woocommerce/';
+			$url            = 'https://coder.fm/item/ajax-product-search-for-woocommerce/';
 			$links          = sprintf( wp_kses( __( 'Check it out <a target="_blank" href="%s">here</a> or on this link: <a target="_blank" href="%s">%s</a>', 'alg-ajax-product-search-for-wc' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $url ), esc_url( $url ), esc_url( $url ) );
 			$features_title = __( 'Take a look on some of its features:', 'alg-ajax-product-search-for-wc' );
 			$features       = array(
