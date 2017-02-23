@@ -37,7 +37,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 			$class      = str_replace( ".", "", $alg_wc_aps->get_searcher()->get_search_input_css_selector() );
 
 			$atts = shortcode_atts( array(
-				'placeholder' => __( 'Search produts', 'alg-ajax-product-search-for-wc' ),
+				'placeholder' => __( 'Search products', 'alg-ajax-product-search-for-wc' ),
 				'class'       => $class,
 				'style'       => 'width:100%;',
 			), $atts, self::TAG_SEARCH_INPUT );

@@ -1,0 +1,156 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alg - Wish List for WooCommerce\n"
+"POT-Creation-Date: 2017-02-23 16:31-0300\n"
+"PO-Revision-Date: 2017-01-17 13:05-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: tasks\n"
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:36
+msgid "General"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:49
+msgid "General Options"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:62
+msgid "Enable Plugin"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:63
+msgid "Enable \"Ajax Product Search for WooCommerce\" plugin"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:69
+msgid "Load Select2"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:70
+#, php-format
+msgid ""
+"Loads most recent version of <a target=\"_blank\" href=\"%s\">Select2</a>"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:71
+msgid ""
+"Mark this only if you are not loading Select2 nowhere else. Select2 is "
+"responsible for improving the html select element."
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-general.php:71
+msgid ""
+"It is required for this plugin to work. If you are uncertain, please let "
+"it enabled."
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:33
+msgid "Texts"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:46
+msgid "Text Options"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:51
+msgid "Input too short"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:52
+msgid "Text displayed when input is not long enough to start searching"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:53
+#: classes/admin/class-alg-wc-aps-settings-texts.php:62
+#, php-format
+msgid ""
+"%d is going to be replaced by the amount of characters missing to start "
+"searching"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:55
+#, php-format
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:60
+msgid "Input too long"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:61
+msgid "Text displayed when input exceeded the maximum characters allowed"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:64
+#, php-format
+msgid "Please delete %d or more characters"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:69
+msgid "Error loading"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:70
+msgid "Text displayed when some error occurs"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:72
+msgid "Error loading results"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:77
+#: classes/admin/class-alg-wc-aps-settings-texts.php:80
+msgid "Loading more"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:78
+msgid "Text displayed when there are more results to be loaded"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:85
+msgid "No results"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:86
+msgid "Text displayed when there are no found results"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:88
+msgid "No results found"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:93
+msgid "Loading"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:94
+msgid "Text displayed when products are being searched"
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:96
+msgid "Loading..."
+msgstr ""
+
+#: classes/admin/class-alg-wc-aps-settings.php:26
+msgid "Ajax Product Search"
+msgstr ""
+
+#: classes/class-alg-wc-aps-core.php:173
+msgid "Settings"
+msgstr ""
+
+#: classes/class-alg-wc-aps-product-searcher-shortcode-manager.php:40
+msgid "Search produts"
+msgstr ""

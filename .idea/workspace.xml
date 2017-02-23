@@ -22,43 +22,19 @@
       <file leaf-file-name="class-alg-wc-aps-core.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+            <state relative-caret-position="929">
+              <caret line="125" column="43" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-alg-wc-aps-settings-texts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
+      <file leaf-file-name="alg-ajax-product-search-for-woocommerce.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#137#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select2-product-finder.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="43" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-              <folding>
-                <element signature="e#6#140#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +42,8 @@
       <file leaf-file-name="class-alg-wc-aps-product-searcher-scripts-manager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-scripts-manager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="137" lean-forward="false" selection-start-line="45" selection-start-column="137" selection-end-line="45" selection-end-column="137" />
+            <state relative-caret-position="413">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding>
                 <element signature="e#6#156#0#PHP" expanded="true" />
               </folding>
@@ -75,45 +51,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-alg-wc-aps-settings-section.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-section.php">
+      <file leaf-file-name="class-alg-wc-aps-settings-texts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher-ajax-manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="58" column="83" lean-forward="true" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-settings-general.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="84" column="67" lean-forward="false" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
               <folding>
-                <marker date="1487872328151" expanded="true" signature="3820:3844" ph="..." />
-                <marker date="1487872328151" expanded="true" signature="3984:4004" ph="..." />
-                <marker date="1487872328151" expanded="true" signature="4147:4184" ph="..." />
+                <element signature="e#6#137#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher-widget-search-input.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class-alg-wc-aps-product-searcher-shortcode-manager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#6#158#0#PHP" expanded="true" />
+                <marker date="1487878956316" expanded="true" signature="1399:1407" ph="..." />
+                <marker date="1487878956316" expanded="true" signature="1408:1421" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class-alg-wc-aps-product-searcher-widget-search-input.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
-              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+              <caret line="62" column="102" lean-forward="false" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="102" />
               <folding>
                 <element signature="e#6#143#0#PHP" expanded="true" />
               </folding>
@@ -147,6 +115,8 @@
       <find>link_label</find>
       <find>link label</find>
       <find>compar</find>
+      <find>handle_localization</find>
+      <find>produts</find>
     </findStrings>
     <replaceStrings>
       <replace>_APS_</replace>
@@ -157,6 +127,9 @@
       <replace>'alg-ajax-product-search-for-wc'</replace>
       <replace>placeholder</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\wp-tests\wp\content\plugins\alg-ajax-product-search-for-woocommerce\classes</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,7 +152,6 @@
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-scripts-manager.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-SearcherScripts-manager.php" />
-        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widgets-manager.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php" />
@@ -188,6 +160,7 @@
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-scripts-manager.php" />
         <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php" />
         <option value="$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js" />
+        <option value="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php" />
       </list>
     </option>
   </component>
@@ -280,20 +253,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alg-ajax-product-search-for-woocommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alg-ajax-product-search-for-woocommerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,22 +349,22 @@
       <updated>1487712599877</updated>
       <workItem from="1487712601407" duration="2632000" />
       <workItem from="1487771007920" duration="21642000" />
-      <workItem from="1487853248973" duration="17083000" />
+      <workItem from="1487853248973" duration="19146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41357000" />
+    <option name="totallyTimeSpent" value="43420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3011727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -599,34 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#6#158#0#PHP" expanded="true" />
-            <marker date="1487858602642" expanded="true" signature="1398:1406" ph="..." />
-            <marker date="1487858602642" expanded="true" signature="1407:1420" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../core/wp-includes/class-wp-widget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -635,12 +566,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php">
+    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="497">
+          <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
           <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
+            <element signature="e#6#140#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,6 +588,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="58" column="83" lean-forward="true" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -665,49 +612,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#137#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="929">
+          <caret line="125" column="43" lean-forward="false" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-scripts-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="137" lean-forward="false" selection-start-line="45" selection-start-column="137" selection-end-line="45" selection-end-column="137" />
+        <state relative-caret-position="413">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding>
             <element signature="e#6#156#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-ajax-manager.php">
+    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="58" column="83" lean-forward="true" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="84" column="67" lean-forward="false" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="67" />
           <folding>
-            <element signature="e#6#140#0#PHP" expanded="true" />
+            <element signature="e#6#137#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/frontend/js/select2-product-finder.js">
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="81" column="15" lean-forward="true" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="241">
+          <caret line="39" column="55" lean-forward="true" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#6#158#0#PHP" expanded="true" />
+            <marker date="1487878956316" expanded="true" signature="1399:1407" ph="..." />
+            <marker date="1487878956316" expanded="true" signature="1408:1421" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="62" column="102" lean-forward="false" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="102" />
+          <folding>
+            <element signature="e#6#143#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
