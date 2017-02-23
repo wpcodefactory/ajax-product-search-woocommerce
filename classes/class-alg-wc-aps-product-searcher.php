@@ -42,22 +42,34 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		 * @since   1.0.0
 		 */
 		public function init() {
-			$this->init_ajax();
+			$this->init_ajax_manager();
 			add_action( 'init', array( $this, 'init_scripts_manager' ) );
 			add_action( 'init', array( $this, 'init_shortcode_manager' ) );
+			add_action( 'widgets_init', array( $this, 'handle_widgets' ) );
 		}
 
 		/**
-		 * Initializes scripts manager.
+		 * Initializes Widgets.
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		public function handle_widgets() {
+			register_widget( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' );
+		}
+
+		/**
+		 * Initializes shortcode manager.
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 * @return Alg_WC_APS_Product_Searcher_Shortcode_Manager
 		 */
-		public function init_shortcode_manager(){
+		public function init_shortcode_manager() {
 			$manager = $this->get_shortcode_manager();
 			if ( ! $manager ) {
 				$manager = new Alg_WC_APS_Product_Searcher_Shortcode_Manager();
+				$this->set_shortcode_manager( $manager );
 			}
 			return $manager;
 		}
@@ -69,21 +81,22 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		 * @since   1.0.0
 		 * @return Alg_WC_APS_Product_Searcher_Scripts_Manager
 		 */
-		public function init_scripts_manager(){
+		public function init_scripts_manager() {
 			$scripts_manager = $this->get_scripts_manager();
 			if ( ! $scripts_manager ) {
 				$scripts_manager = new Alg_WC_APS_Product_Searcher_Scripts_Manager();
+				$this->set_scripts_manager( $scripts_manager );
 			}
 			return $scripts_manager;
 		}
 
 		/**
-		 * Initializes Ajax
+		 * Initializes Ajax manager.
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		public function init_ajax() {
+		public function init_ajax_manager() {
 			$ajax_manager = $this->get_ajaxManager();
 			if ( ! $ajax_manager ) {
 				$ajax_manager = new Alg_WC_APS_Product_Searcher_Ajax_Manager();
@@ -189,8 +202,5 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		public function set_shortcode_manager( $shortcode_manager ) {
 			$this->shortcode_manager = $shortcode_manager;
 		}
-
-
-
 	}
 }

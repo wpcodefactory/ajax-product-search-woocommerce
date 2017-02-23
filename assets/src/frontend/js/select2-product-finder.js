@@ -24,7 +24,7 @@ jQuery(function ($) {
 			search_inputs.each(function () {
 				var this_input = $(this);
 				this_input.select2({
-					minimumInputLength: 1,
+					minimumInputLength: 3,
 					placeholder: this_input.attr('placeholder') || '',
 					ajax: {
 						url: alg_wc_aps.ajaxurl,
