@@ -116,8 +116,9 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				while ( $query->have_posts() ) {
 					$query->the_post();
 					$result['items'][] = array(
-						'id'   => get_the_ID(),
-						'text' => get_the_title(),
+						'id'        => get_the_ID(),
+						'text'      => get_the_title(),
+						'permalink' => get_permalink( get_the_ID() ),
 					);
 				}
 				$result['total_count']    = $query->found_posts;
