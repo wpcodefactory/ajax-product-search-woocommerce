@@ -24,23 +24,29 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		 */
 		private $scripts_manager;
 
+		/**
+		 * Informs the css class for the search input
+		 * @var string
+		 */
 		private $search_input_css_selector = '.alg-wc-aps-select';
 
+		/**
+		 * Initializes.
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function init() {
 			$this->init_ajax();
-			//add_action( 'init', array( $this, 'get_search_input_css_class_by_admin' ) );
 			add_action( 'init', array( $this, 'init_scripts_manager' ) );
 		}
 
-		/*public function get_search_input_css_class_by_admin(){
-
-		}*/
-
-		/*public function enqueue_scripts() {
-			$scripts_manager = $this->init_scripts_manager();
-			$scripts_manager->enqueue_scripts();
-		}*/
-
+		/**
+		 * Initializes frontend.
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function init_scripts_manager(){
 			$scripts_manager = $this->get_scripts_manager();
 			if ( ! $scripts_manager ) {
@@ -49,6 +55,12 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 			return $scripts_manager;
 		}
 
+		/**
+		 * Initializes Ajax
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function init_ajax() {
 			$ajax_manager = $this->get_ajaxManager();
 			if ( ! $ajax_manager ) {
@@ -58,6 +70,12 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 
 		}
 
+		/**
+		 * Converts a wp_query result in a select 2 format result
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function convert_products_search_result_to_select2( \WP_Query $query ) {
 			$result = array( 'items' => array(), 'total_count' => 0 );
 			if ( $query->have_posts() ) {
@@ -76,6 +94,12 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 			return $result;
 		}
 
+		/**
+		 * Searches products
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function search_products( $args = array() ) {
 			$args = wp_parse_args( $args, array(
 				'post_type'      => 'product',

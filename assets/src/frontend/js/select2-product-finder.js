@@ -15,6 +15,9 @@ jQuery(function ($) {
 			select2_product_finder.activate_select2();
 		},
 
+		/**
+		 * Activate select 2
+		 */
 		activate_select2: function () {
 			$(alg_wc_aps.search_input_css_selector).select2({
 				minimumInputLength: 1,

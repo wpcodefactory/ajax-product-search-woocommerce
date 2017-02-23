@@ -14,14 +14,32 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Ajax_Manager' ) ) {
 	class Alg_WC_APS_Product_Searcher_Ajax_Manager {
 
+		/**
+		 * Informs the ajax action responsible for search products
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		const ACTION_SEARCH_PRODUCTS = 'alg_wc_aps_search_products';
 
+		/**
+		 * Initializes
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		function __construct() {
 			$action = Alg_WC_APS_Product_Searcher_Ajax_Manager::ACTION_SEARCH_PRODUCTS;
 			add_action( "wp_ajax_nopriv_{$action}", array( $this, 'search_products' ) );
 			add_action( "wp_ajax_{$action}", array( $this, 'search_products' ) );
 		}
 
+		/**
+		 * Searches products
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
 		public function search_products() {
 			if ( ! isset( $_GET['action'] ) || $_GET['action'] != self::ACTION_SEARCH_PRODUCTS ) {
 				return;
