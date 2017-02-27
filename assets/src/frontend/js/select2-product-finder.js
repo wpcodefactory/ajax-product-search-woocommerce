@@ -49,6 +49,14 @@ jQuery(function ($) {
 						},
 						cache: true
 					},
+					templateResult:function(state){
+						if(typeof wc_aps_template_result === "function"){
+							return wc_aps_template_result(state);
+						}else{
+							return state.text;
+						}
+						return '<span>AHA: </span>'+state.text;
+					},
 					escapeMarkup: function (markup) {
 						return markup;
 					},
