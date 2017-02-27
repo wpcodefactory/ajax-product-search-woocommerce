@@ -106,7 +106,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		private function init_frontend(){
+		protected function init_frontend(){
 			add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 
 			// Initialize products searcher
