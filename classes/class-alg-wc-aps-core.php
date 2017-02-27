@@ -34,8 +34,6 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 */
 		private $searcher;
 
-
-
 		/**
 		 * Main Alg_WC_APS_Core Instance
 		 *
