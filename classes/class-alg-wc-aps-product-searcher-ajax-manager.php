@@ -59,6 +59,5 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Ajax_Manager' ) ) {
 			$search_result_select_2 = $alg_wc_aps->get_searcher()->convert_products_search_result_to_select2( $search_result );
 			wp_send_json_success( $search_result_select_2 );
 		}
-
 	}
 }
