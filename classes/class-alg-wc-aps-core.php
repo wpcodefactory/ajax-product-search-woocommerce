@@ -92,6 +92,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 
 			// Select2
 			$select2_opt = get_option( Alg_WC_APS_Settings_General::OPTION_SELECT2_ENABLE, true );
+			$js_file     = 'assets/vendor/select2/js/select2' . $suffix . '.js';
 			if ( filter_var( $select2_opt, FILTER_VALIDATE_BOOLEAN ) !== false ) {
 				wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
 				wp_enqueue_script( 'alg-wc-aps-select2' );
