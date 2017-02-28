@@ -140,6 +140,8 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				'post_type'      => 'product',
 				's'              => '',
 				'paged'          => 1,
+				'orderby'        => 'title',
+				'order'          => 'asc',
 				'posts_per_page' => 6,
 			) );
 

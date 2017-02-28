@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f335cf65-7e18-4e3c-a35d-691b2f960382" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php" afterPath="$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" afterPath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php" afterPath="$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" afterPath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php" afterPath="$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,49 +19,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.txt">
+      <file leaf-file-name="class-alg-wc-aps-product-searcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-settings-texts.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="-260">
+              <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
               <folding>
-                <element signature="e#6#137#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alg-ajax-product-search-for-woocommerce.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="33" />
-              <folding>
-                <element signature="e#6#356#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher-shortcode-manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="50" />
-              <folding>
-                <element signature="e#6#158#0#PHP" expanded="true" />
-                <marker date="1487878956316" expanded="true" signature="1399:1407" ph="..." />
-                <marker date="1487878956316" expanded="true" signature="1408:1421" ph="..." />
+                <element signature="e#6#140#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,7 +206,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,21 +296,21 @@
       <workItem from="1487712601407" duration="2632000" />
       <workItem from="1487771007920" duration="21642000" />
       <workItem from="1487853248973" duration="22533000" />
+      <workItem from="1488293671166" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46807000" />
+    <option name="totallyTimeSpent" value="46932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -357,6 +321,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -375,13 +340,65 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#137#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#356#0#PHP" expanded="true" />
+            <marker date="1488205084443" expanded="true" signature="907:917" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1005:1988" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1011:1107" ph=" Autoloads all classes ..." />
+            <marker date="1488205084443" expanded="true" signature="1153:1934" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1205:1931" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1818:1927" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1880:1922" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2042:2144" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2185:2243" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2289:2353" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2402:2509" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2574:2827" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2579:2738" ph=" Returns the main instance of Alg_WC_APS_Core to prevent the need to use globals. ..." />
+            <marker date="1488205084443" expanded="true" signature="2785:2825" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#6#158#0#PHP" expanded="true" />
+            <marker date="1487878956316" expanded="true" signature="1399:1407" ph="..." />
+            <marker date="1487878956316" expanded="true" signature="1408:1421" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="63" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,17 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="44" column="54" lean-forward="false" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
-          <folding>
-            <marker date="1487876224763" expanded="true" signature="303:2397" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="473:2393" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="526:1211" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="601:1141" ph="{&quot;url&quot;: alg_wc_aps.ajaxurl...}" />
-            <marker date="1487876224763" expanded="true" signature="702:858" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="717:850" ph="{&quot;s&quot;: params.term...}" />
-            <marker date="1487876224763" expanded="true" signature="905:1117" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="958:1109" ph="{&quot;results&quot;: data.data.items...}" />
-            <marker date="1487876224763" expanded="true" signature="1012:1101" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -438,9 +443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          <folding>
-            <element signature="e#6#153#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,9 +451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#134#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -458,7 +459,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="43" selection-end-line="81" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#6#356#0#PHP" expanded="true" />
+            <marker date="1488205084443" expanded="true" signature="907:917" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1005:1988" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1011:1107" ph=" Autoloads all classes ..." />
+            <marker date="1488205084443" expanded="true" signature="1153:1934" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1205:1931" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1818:1927" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1880:1922" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2042:2144" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2185:2243" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2289:2353" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2402:2509" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2574:2827" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2579:2738" ph=" Returns the main instance of Alg_WC_APS_Core to prevent the need to use globals. ..." />
+            <marker date="1488205084443" expanded="true" signature="2785:2825" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -475,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,17 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding>
-            <marker date="1487876224763" expanded="true" signature="303:2397" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="473:2393" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="526:1211" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="601:1141" ph="{&quot;url&quot;: alg_wc_aps.ajaxurl...}" />
-            <marker date="1487876224763" expanded="true" signature="702:858" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="717:850" ph="{&quot;s&quot;: params.term...}" />
-            <marker date="1487876224763" expanded="true" signature="905:1117" ph="{...}" />
-            <marker date="1487876224763" expanded="true" signature="958:1109" ph="{&quot;results&quot;: data.data.items...}" />
-            <marker date="1487876224763" expanded="true" signature="1012:1101" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="237" column="20" lean-forward="false" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,17 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#140#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,12 +613,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#137#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alg-ajax-product-search-for-woocommerce.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="33" />
+          <caret line="31" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="33" />
           <folding>
             <element signature="e#6#356#0#PHP" expanded="true" />
+            <marker date="1488205084443" expanded="true" signature="907:917" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1005:1988" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1011:1107" ph=" Autoloads all classes ..." />
+            <marker date="1488205084443" expanded="true" signature="1153:1934" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1205:1931" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1818:1927" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="1880:1922" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2042:2144" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2185:2243" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2289:2353" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2402:2509" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2574:2827" ph="..." />
+            <marker date="1488205084443" expanded="true" signature="2579:2738" ph=" Returns the main instance of Alg_WC_APS_Core to prevent the need to use globals. ..." />
+            <marker date="1488205084443" expanded="true" signature="2785:2825" ph="..." />
           </folding>
         </state>
       </provider>
@@ -644,20 +667,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-texts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="-260">
+          <caret line="125" column="36" lean-forward="true" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
           <folding>
-            <element signature="e#6#137#0#PHP" expanded="true" />
+            <element signature="e#6#140#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
