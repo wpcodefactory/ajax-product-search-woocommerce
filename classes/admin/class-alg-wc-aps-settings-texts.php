@@ -77,7 +77,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 					'title'    => __( 'Loading more', 'alg-ajax-product-search-for-wc' ),
 					'desc'     => __( 'Text displayed when there are more results to be loaded', 'alg-ajax-product-search-for-wc' ),
 					'id'       => self::OPTION_LOADING_MORE,
-					'default'  => __( 'Loading more', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Loading more...', 'alg-ajax-product-search-for-wc' ),
 					'type'     => 'textarea',
 
 				),
