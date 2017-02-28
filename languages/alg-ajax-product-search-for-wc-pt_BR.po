@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Alg - Ajax Product Search for WooCommerce\n"
-"POT-Creation-Date: 2017-02-23 16:43-0300\n"
-"PO-Revision-Date: 2017-02-23 17:27-0300\n"
+"POT-Creation-Date: 2017-02-28 18:25-0300\n"
+"PO-Revision-Date: 2017-02-28 18:27-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -17,34 +17,34 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: assets\n"
 "X-Poedit-SearchPathExcluded-1: tasks\n"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:36
+#: classes/admin/class-alg-wc-aps-settings-general.php:30
 msgid "General"
 msgstr "Geral"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:49
+#: classes/admin/class-alg-wc-aps-settings-general.php:43
 msgid "General Options"
 msgstr "Opções gerais"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:62
+#: classes/admin/class-alg-wc-aps-settings-general.php:56
 msgid "Enable Plugin"
 msgstr "Ativar plugin"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:63
+#: classes/admin/class-alg-wc-aps-settings-general.php:57
 msgid "Enable \"Ajax Product Search for WooCommerce\" plugin"
 msgstr "Ativa o plugin \"Ajax Product Search for WooCommerce\""
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:69
+#: classes/admin/class-alg-wc-aps-settings-general.php:63
 msgid "Load Select2"
 msgstr "Carregar Select2"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:70
+#: classes/admin/class-alg-wc-aps-settings-general.php:64
 #, php-format
 msgid ""
 "Loads most recent version of <a target=\"_blank\" href=\"%s\">Select2</a>"
 msgstr ""
 "Carrega a versão mais recente do <a target=\"_blank\" href=\"%s\">Select2</a>"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:71
+#: classes/admin/class-alg-wc-aps-settings-general.php:65
 msgid ""
 "Mark this only if you are not loading Select2 nowhere else. Select2 is "
 "responsible for improving the html select element."
@@ -52,7 +52,7 @@ msgstr ""
 "Marque essa opção somente se você não estiver carregando o Select2 em nenhum "
 "outro lugar. Select2 é responsável por melhorar o elemento select do HTML"
 
-#: classes/admin/class-alg-wc-aps-settings-general.php:71
+#: classes/admin/class-alg-wc-aps-settings-general.php:65
 msgid ""
 "It is required for this plugin to work. If you are uncertain, please let it "
 "enabled."
@@ -60,26 +60,26 @@ msgstr ""
 "Ele é necessário para esse plugin funcionar. Se você está incerto, por favor "
 "deixe a opção ativada"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:33
+#: classes/admin/class-alg-wc-aps-settings-texts.php:34
 msgid "Texts"
 msgstr "Textos"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:46
+#: classes/admin/class-alg-wc-aps-settings-texts.php:47
 msgid "Text Options"
 msgstr "Opções de texto"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:51
+#: classes/admin/class-alg-wc-aps-settings-texts.php:52
 msgid "Input too short"
 msgstr "Caracteres insuficientes"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:52
+#: classes/admin/class-alg-wc-aps-settings-texts.php:53
 msgid "Text displayed when input is not long enough to start searching"
 msgstr ""
 "Texto apresentado quando o input não tem caracteres suficientes para a busca "
 "começar"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:53
-#: classes/admin/class-alg-wc-aps-settings-texts.php:62
+#: classes/admin/class-alg-wc-aps-settings-texts.php:54
+#: classes/admin/class-alg-wc-aps-settings-texts.php:63
 #, php-format
 msgid ""
 "%d is going to be replaced by the amount of characters missing to start "
@@ -88,68 +88,92 @@ msgstr ""
 "%d será substituído pela quantidade de caracteres que estão faltando para a "
 "busca começar"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:55
+#: classes/admin/class-alg-wc-aps-settings-texts.php:56
 #, php-format
 msgid "Please enter %d or more characters"
 msgstr "Por favor, digite %d ou mais caracteres"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:60
+#: classes/admin/class-alg-wc-aps-settings-texts.php:61
 msgid "Input too long"
 msgstr "Caracteres em excesso"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:61
+#: classes/admin/class-alg-wc-aps-settings-texts.php:62
 msgid "Text displayed when input exceeded the maximum characters allowed"
 msgstr ""
 "Texto exibido quando o input excedeu a quantidade máxima de caracteres "
 "permitida"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:64
+#: classes/admin/class-alg-wc-aps-settings-texts.php:65
 #, php-format
 msgid "Please delete %d or more characters"
 msgstr "Por favor, delete %d ou mais caracteres"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:69
+#: classes/admin/class-alg-wc-aps-settings-texts.php:70
 msgid "Error loading"
 msgstr "Erro de carregamento"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:70
+#: classes/admin/class-alg-wc-aps-settings-texts.php:71
 msgid "Text displayed when some error occurs"
 msgstr "Texto exibido quando surge um erro"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:72
+#: classes/admin/class-alg-wc-aps-settings-texts.php:73
 msgid "Error loading results"
 msgstr "Erro carregando resultados"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:77
-#: classes/admin/class-alg-wc-aps-settings-texts.php:80
+#: classes/admin/class-alg-wc-aps-settings-texts.php:78
 msgid "Loading more"
 msgstr "Carregando mais"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:78
+#: classes/admin/class-alg-wc-aps-settings-texts.php:79
 msgid "Text displayed when there are more results to be loaded"
 msgstr "Texto exibido quando há mais resultados a serem carregados"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:85
+#: classes/admin/class-alg-wc-aps-settings-texts.php:81
+msgid "Loading more..."
+msgstr "Carregando mais..."
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:86
+msgid "View all results"
+msgstr "Ver todos os resultados"
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:87
+msgid ""
+"Text displayed with a link pointing to a page showing all search results"
+msgstr ""
+"Texto exibido com um link apontando para uma página mostrando todos os "
+"resultados da busca"
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:88
+#, php-format
+msgid "%d is going to be replaced by search results amount"
+msgstr "%d será substituído pelo total dos resultados da busca"
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:90
+#, php-format
+msgid "View all results (%d)"
+msgstr "Ver resultados (%d)"
+
+#: classes/admin/class-alg-wc-aps-settings-texts.php:95
 msgid "No results"
 msgstr "Sem resultados"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:86
+#: classes/admin/class-alg-wc-aps-settings-texts.php:96
 msgid "Text displayed when there are no found results"
 msgstr "Texto exibido quando não há resultados encontrados"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:88
+#: classes/admin/class-alg-wc-aps-settings-texts.php:98
 msgid "No results found"
 msgstr "Nenhum resultado encontrado"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:93
+#: classes/admin/class-alg-wc-aps-settings-texts.php:103
 msgid "Loading"
 msgstr "Carregando"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:94
+#: classes/admin/class-alg-wc-aps-settings-texts.php:104
 msgid "Text displayed when products are being searched"
 msgstr "Texto exibido quando os produtos estão sendo buscados"
 
-#: classes/admin/class-alg-wc-aps-settings-texts.php:96
+#: classes/admin/class-alg-wc-aps-settings-texts.php:106
 msgid "Loading..."
 msgstr "Carregando..."
 
@@ -157,7 +181,7 @@ msgstr "Carregando..."
 msgid "Ajax Product Search"
 msgstr ""
 
-#: classes/class-alg-wc-aps-core.php:173
+#: classes/class-alg-wc-aps-core.php:172
 msgid "Settings"
 msgstr "Ajustes"
 
