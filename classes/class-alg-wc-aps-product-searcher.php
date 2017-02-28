@@ -110,7 +110,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		public function convert_products_search_result_to_select2( \WP_Query $query ) {
+		public function convert_products_search_result_to_select2( \WP_Query $query, $args=array() ) {
 			$result = array( 'items' => array(), 'total_count' => 0 );
 			if ( $query->have_posts() ) {
 				while ( $query->have_posts() ) {
