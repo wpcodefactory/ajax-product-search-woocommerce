@@ -47,7 +47,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 			$style       = esc_attr( sanitize_text_field( $atts['style'] ) );
 
 			echo "
-			<select placeholder='{$placeholder}' class='{$class}' style='{$style}'>
+			<select data-test='dddd' placeholder='{$placeholder}' class='{$class}' style='{$style}'>
 			</select>
 			";
 		}

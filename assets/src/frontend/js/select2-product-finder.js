@@ -32,11 +32,24 @@ jQuery(function ($) {
 						dataType: 'json',
 						delay: 250,
 						data: function (params) {
-							return {
+							var return_obj = {
 								s: params.term, // search term
 								action: alg_wc_aps.ajax_actions.search_products,
 								page: params.page || 1
 							};
+
+							//Pass all data attributes to ajax
+							this_input.each(function() {
+								$.each(this.attributes, function() {
+								    if(this.specified) {
+								    	if(this.name.indexOf('data-')!=-1){
+											return_obj[this.name.replace('data-','')] = this.value;
+								    	}
+								    }
+								});
+							});
+							
+							return return_obj;
 						},
 						processResults: function (data, params) {
 							params.page = params.page || 1;
@@ -55,7 +68,6 @@ jQuery(function ($) {
 						}else{
 							return state.text;
 						}
-						return '<span>AHA: </span>'+state.text;
 					},
 					escapeMarkup: function (markup) {
 						return markup;
