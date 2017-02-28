@@ -31,6 +31,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 
 		/**
 		 * Informs the css class for the search input
+		 *
 		 * @var string
 		 */
 		private $search_input_css_selector = '.alg-wc-aps-select';
@@ -71,6 +72,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				$manager = new Alg_WC_APS_Product_Searcher_Shortcode_Manager();
 				$this->set_shortcode_manager( $manager );
 			}
+
 			return $manager;
 		}
 
@@ -87,6 +89,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				$scripts_manager = new Alg_WC_APS_Product_Searcher_Scripts_Manager();
 				$this->set_scripts_manager( $scripts_manager );
 			}
+
 			return $scripts_manager;
 		}
 
@@ -105,14 +108,39 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		}
 
 		/**
+		 * Gets the default search value linking to a search page with an "s" query string
+		 *
+		 * @version 1.0.0
+		 * @since   1.0.0
+		 */
+		protected function get_default_search_value( \WP_Query $query, $result ) {
+			$search_permalink = add_query_arg( array(
+				's'         => sanitize_text_field( $query->query_vars['s'] ),
+				'post_type' => 'product',
+			), get_home_url() );
+
+			$result['items'][] = array(
+				'default'   => true,
+				'id'        => get_the_ID(),
+				'text'      => sprintf( __( 'View all results (%d)', 'alg-ajax-product-search-for-wc' ), $query->found_posts ),
+				'permalink' => $search_permalink,
+			);
+
+			return $result;
+		}
+
+		/**
 		 * Converts a wp_query result in a select 2 format result
 		 *
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		public function convert_products_search_result_to_select2( \WP_Query $query, $args=array() ) {
+		public function convert_products_search_result_to_select2( \WP_Query $query, $args = array() ) {
 			$result = array( 'items' => array(), 'total_count' => 0 );
 			if ( $query->have_posts() ) {
+				if ( $query->query_vars['paged'] == 1 && $query->max_num_pages > 1 ) {
+					$result = $this->get_default_search_value( $query, $result );
+				}
 				while ( $query->have_posts() ) {
 					$query->the_post();
 					$result['items'][] = array(
@@ -124,6 +152,9 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				$result['total_count']    = $query->found_posts;
 				$result['posts_per_page'] = $query->query_vars['posts_per_page'];
 				wp_reset_postdata();
+				if ( $query->query_vars['paged'] == $query->max_num_pages && $query->max_num_pages > 1 ) {
+					$result = $this->get_default_search_value( $query, $result );
+				}
 			}
 
 			return $result;

@@ -32,7 +32,7 @@ jQuery(function ($) {
 			search_inputs.each(function () {
 				var this_input = $(this);
 				this_input.select2({
-					maximumInputLength: 20,
+					maximumInputLength: 40,
 					minimumInputLength: 3,
 					placeholder: this_input.attr('placeholder') || '',
 					ajax: {
@@ -74,7 +74,11 @@ jQuery(function ($) {
 						if(typeof wc_aps_template_result === "function"){
 							return wc_aps_template_result(state);
 						}else{
-							return state.text;
+							if(state.default){
+								return '<div class="alg-wc-aps-default" style="font-weight:bold;">'+state.text+'</div>'
+							}else{
+								return state.text;
+							}
 						}
 					},
 					escapeMarkup: function (markup) {
