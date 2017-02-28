@@ -122,7 +122,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 			$result['items'][] = array(
 				'default'   => true,
 				'id'        => get_the_ID(),
-				'text'      => sprintf( __( 'View all results (%d)', 'alg-ajax-product-search-for-wc' ), $query->found_posts ),
+				'text'      => sprintf( sanitize_text_field( get_option( Alg_WC_APS_Settings_Texts::OPTION_VIEW_ALL_RESULTS ) ), $query->found_posts ),
 				'permalink' => $search_permalink,
 			);
 

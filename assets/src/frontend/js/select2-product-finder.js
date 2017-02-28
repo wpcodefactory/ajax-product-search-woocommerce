@@ -67,7 +67,7 @@ jQuery(function ($) {
 							return wc_aps_template_result(state);
 						}else{
 							if(state.default){
-								return '<div class="alg-wc-aps-default" style="font-weight:bold;">'+state.text+'</div>'
+								return '<div class="alg-wc-aps-default" style="font-weight:bold;text-transform:uppercase">'+state.text+'</div>';
 							}else{
 								return state.text;
 							}

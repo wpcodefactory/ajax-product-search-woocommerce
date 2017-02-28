@@ -15,12 +15,13 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 
 	class Alg_WC_APS_Settings_Texts extends Alg_WC_APS_Settings_Section {
 
-		const OPTION_INPUT_TOO_SHORT = 'alg_wc_aps_texts_input_too_short';
-		const OPTION_INPUT_TOO_LONG  = 'alg_wc_aps_texts_input_too_long';
-		const OPTION_ERROR_LOADING   = 'alg_wc_aps_texts_error_loading';
-		const OPTION_LOADING_MORE    = 'alg_wc_aps_texts_loading_more';
-		const OPTION_NO_RESULTS      = 'alg_wc_aps_texts_no_results';
-		const OPTION_SEARCHING       = 'alg_wc_aps_texts_searching';
+		const OPTION_INPUT_TOO_SHORT        = 'alg_wc_aps_texts_input_too_short';
+		const OPTION_INPUT_TOO_LONG         = 'alg_wc_aps_texts_input_too_long';
+		const OPTION_ERROR_LOADING          = 'alg_wc_aps_texts_error_loading';
+		const OPTION_LOADING_MORE           = 'alg_wc_aps_texts_loading_more';
+		const OPTION_NO_RESULTS             = 'alg_wc_aps_texts_no_results';
+		const OPTION_SEARCHING              = 'alg_wc_aps_texts_searching';
+		const OPTION_VIEW_ALL_RESULTS       = 'alg_wc_aps_texts_view_all_results';
 
 		/**
 		 * Constructor.
@@ -78,6 +79,15 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 					'desc'     => __( 'Text displayed when there are more results to be loaded', 'alg-ajax-product-search-for-wc' ),
 					'id'       => self::OPTION_LOADING_MORE,
 					'default'  => __( 'Loading more...', 'alg-ajax-product-search-for-wc' ),
+					'type'     => 'textarea',
+
+				),
+				array(
+					'title'    => __( 'View all results', 'alg-ajax-product-search-for-wc' ),
+					'desc'     => __( 'Text displayed with a link pointing to a page showing all search results', 'alg-ajax-product-search-for-wc' ),
+					'desc_tip' => __( '%d is going to be replaced by search results amount', 'alg-ajax-product-search-for-wc' ),
+					'id'       => self::OPTION_VIEW_ALL_RESULTS,
+					'default'  => __( 'View all results (%d)', 'alg-ajax-product-search-for-wc' ),
 					'type'     => 'textarea',
 
 				),
