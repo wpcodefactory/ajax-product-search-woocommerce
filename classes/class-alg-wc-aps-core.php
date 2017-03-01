@@ -93,7 +93,15 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 			// Select2
 			$select2_opt = get_option( Alg_WC_APS_Settings_General::OPTION_SELECT2_ENABLE, true );
 			$js_file     = 'assets/vendor/select2/js/select2' . $suffix . '.js';
+
 			if ( filter_var( $select2_opt, FILTER_VALIDATE_BOOLEAN ) !== false ) {
+
+				// Disable WooCommerce select 2 from some pages because it's old and conflicts with this plugin
+				if ( is_checkout() || is_account_page() ) {
+					wp_dequeue_script( 'select2' );
+					wp_dequeue_style( 'select2' );
+				}
+
 				wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
 				wp_enqueue_script( 'alg-wc-aps-select2' );
 				wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
@@ -108,7 +116,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @since   1.0.0
 		 */
 		protected function init_frontend(){
-			add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+			add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ), 11 );
 
 			// Initialize products searcher
 			$searcher = new Alg_WC_APS_Product_Searcher();
