@@ -23,7 +23,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 		function __construct() {
 			parent::__construct(
 				'alg_wc_aps_search_input', // Base ID
-				esc_html__( 'Ajax product search input', 'alg-ajax-product-search-for-wc' ), // Name
+				esc_html__( 'Ajax Product Search Input', 'alg-ajax-product-search-for-wc' ), // Name
 				array( 'description' => esc_html__( 'An input that searches WooCommerce products using an autocomplete feature', 'alg-ajax-product-search-for-wc' ), ) // Args
 			);
 		}

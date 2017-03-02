@@ -42,7 +42,7 @@ If you are interested in contributing - head over to the [Ajax Product Search fo
 
 == Changelog ==
 
-= 1.0.0 - 24/02/2016 =
+= 1.0.0 - 02/03/2016 =
 * Initial Release.
 
 == Upgrade Notice ==

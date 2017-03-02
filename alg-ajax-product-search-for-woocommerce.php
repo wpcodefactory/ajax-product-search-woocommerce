@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: ALG - Ajax Product Search for WooCommerce
+Plugin Name: Ajax Product Search for WooCommerce
 Description: Provides an autocomplete feature to search WooCommerce products
 Version: 1.0.0
 Author: Algoritmika Ltd
@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 // Disable this plugin if Pro version is activated
 if ( defined( 'ALG_WC_APS_PRO_DIR' ) ) {
-	add_action('admin_init',function(){
+	add_action( 'admin_init', function() {
 		deactivate_plugins( plugin_basename( __FILE__ ) );
-	});
+	} );
 }
 
 // Check if WooCommerce is active
