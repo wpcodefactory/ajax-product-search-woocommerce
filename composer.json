@@ -1,5 +1,5 @@
 {
-	"name": "algoritmika/ajax-product-search-for-woocommerce",
+	"name": "algoritmika/ajax-product-search-woocommerce",
 	"description": "Provides an autocomplete feature to search WooCommerce products",
 	"keywords": [		
 		"woocommerce","ajax","search products","search","autocomplete","products"

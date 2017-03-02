@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f335cf65-7e18-4e3c-a35d-691b2f960382" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" afterPath="$PROJECT_DIR$/classes/class-alg-wc-aps-core.php" />
-    </list>
+    <list default="true" id="f335cf65-7e18-4e3c-a35d-691b2f960382" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,65 +15,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="class-alg-wc-aps-settings-general.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-              <folding>
-                <marker date="1487881524169" expanded="true" signature="3764:3788" ph="..." />
-                <marker date="1487881524169" expanded="true" signature="3928:3948" ph="..." />
-                <marker date="1487881524169" expanded="true" signature="4091:4128" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-settings-section.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-section.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-core.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="107" column="57" lean-forward="true" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher-widget-search-input.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-widget-search-input.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="62" column="102" lean-forward="false" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class-alg-wc-aps-product-searcher-shortcode-manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="19" />
-              <folding>
-                <marker date="1488405074137" expanded="true" signature="1408:1413" ph="..." />
-                <marker date="1488405074137" expanded="true" signature="1408:1421" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -364,18 +303,18 @@
       <workItem from="1488311267189" duration="3552000" />
       <workItem from="1488315179069" duration="1634000" />
       <workItem from="1488317123474" duration="827000" />
-      <workItem from="1488404530941" duration="888000" />
+      <workItem from="1488404530941" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55375000" />
+    <option name="totallyTimeSpent" value="55670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27452025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27452025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,23 +694,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php">
+    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        <state relative-caret-position="357">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1487881524169" expanded="true" signature="3764:3788" ph="..." />
-            <marker date="1487881524169" expanded="true" signature="3928:3948" ph="..." />
-            <marker date="1487881524169" expanded="true" signature="4091:4128" ph="..." />
+            <marker date="1488405074137" expanded="true" signature="1408:1413" ph="..." />
+            <marker date="1488405074137" expanded="true" signature="1408:1421" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,22 +713,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <marker date="1488405074137" expanded="true" signature="1408:1413" ph="..." />
-            <marker date="1488405074137" expanded="true" signature="1408:1421" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/class-alg-wc-aps-core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
           <caret line="107" column="57" lean-forward="true" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/admin/class-alg-wc-aps-settings-general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <marker date="1487881524169" expanded="true" signature="3764:3788" ph="..." />
+            <marker date="1487881524169" expanded="true" signature="3928:3948" ph="..." />
+            <marker date="1487881524169" expanded="true" signature="4091:4128" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
