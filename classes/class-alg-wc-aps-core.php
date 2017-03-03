@@ -151,6 +151,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 			// Admin setting options inside WooCommerce
 			new Alg_WC_APS_Settings_General();
 			new Alg_WC_APS_Settings_Texts();
+			new Alg_WC_APS_Settings_Search();
 
 			if ( is_admin() && get_option( 'alg_wc_aps_version', '' ) !== $this->version ) {
 				update_option( 'alg_wc_aps_version', $this->version );

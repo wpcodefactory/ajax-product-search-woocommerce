@@ -49,11 +49,13 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Ajax_Manager' ) ) {
 			}
 
 			$search_string = sanitize_text_field( $_GET['s'] );
+			$cache_results = isset( $_GET['cache_results'] ) ? filter_var( get_option( sanitize_text_field( $_GET['cache_results'] ), true ), FILTER_VALIDATE_BOOLEAN ) : false;
 			$paged         = intval( sanitize_text_field( $_GET['page'] ) );
 			$alg_wc_aps    = alg_ajax_product_search_for_wc();
 			$search_result = $alg_wc_aps->get_searcher()->search_products( array(
-				's'     => $search_string,
-				'paged' => $paged,
+				'cache_results' => $cache_results,
+				's'             => $search_string,
+				'paged'         => $paged,
 			) );
 
 			$search_result_select_2 = $alg_wc_aps->get_searcher()->convert_products_search_result_to_select2( $search_result );

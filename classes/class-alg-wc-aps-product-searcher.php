@@ -174,9 +174,21 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				'orderby'        => 'title',
 				'order'          => 'asc',
 				'posts_per_page' => 6,
+				'cache_results'  => false,
+				'cache_timeout'  => 4,
 			) );
 
-			$the_query = new WP_Query( $args );
+			if ( true === $args['cache_results'] ) {
+				$dynamic_key    = md5( sanitize_text_field( $args['s'] . '_' . sanitize_text_field( $args['paged'] ) ) );
+				$transient_name = "alg-wc-aps-results_{$dynamic_key}";
+				$timeout        = absint( sanitize_text_field( $args['cache_timeout'] ) );
+				if ( false === ( $the_query = get_transient( $transient_name ) ) ) {
+					$the_query = new WP_Query( $args );
+					set_transient( $transient_name, $the_query, $timeout * HOUR_IN_SECONDS );
+				}
+			} else {
+				$the_query = new WP_Query( $args );
+			}
 
 			return $the_query;
 		}
