@@ -59,14 +59,15 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 		 * @param array $instance Previously saved values from database.
 		 */
 		public function form( $instance ) {
-			$title       = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'Search products', 'alg-ajax-product-search-for-wc' );
-			$placeholder = ! empty( $instance['placeholder'] ) ? $instance['placeholder'] : esc_html__( 'Search products', 'alg-ajax-product-search-for-wc' );
+			$title       = ! empty( $instance['title'] ) ? $instance['title'] : '';
+			$placeholder = ! empty( $instance['placeholder'] ) ? $instance['placeholder'] : '';
 			?>
             <p>
                 <label
                         for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title:', 'alg-ajax-product-search-for-wc' ); ?></label>
                 <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
                        name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text"
+                       placeholder="<?php echo esc_attr( __( 'Search products', 'alg-ajax-product-search-for-wc' ) ); ?>"
                        value="<?php echo esc_attr( $title ); ?>">
             </p>
 
@@ -75,6 +76,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
                         for="<?php echo esc_attr( $this->get_field_id( 'placeholder' ) ); ?>"><?php esc_attr_e( 'Placeholder:', 'alg-ajax-product-search-for-wc' ); ?></label>
                 <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'placeholder' ) ); ?>"
                        name="<?php echo esc_attr( $this->get_field_name( 'placeholder' ) ); ?>" type="text"
+                       placeholder="<?php echo esc_attr( __( 'Search products', 'alg-ajax-product-search-for-wc' ) ); ?>"
                        value="<?php echo esc_attr( $placeholder ); ?>">
             </p>
 			<?php
