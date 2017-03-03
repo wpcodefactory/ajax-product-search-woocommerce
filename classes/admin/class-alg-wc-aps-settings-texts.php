@@ -31,7 +31,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 		 */
 		function __construct( $handle_autoload = true ) {
 			$this->id   = 'texts';
-			$this->desc = __( 'Texts', 'alg-ajax-product-search-for-wc' );
+			$this->desc = __( 'Texts', 'ajax-product-search-woocommerce' );
 			parent::__construct( $handle_autoload );
 		}
 
@@ -44,66 +44,66 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 		function get_settings( $settings = null ) {
 			$new_settings = array(
 				array(
-					'title' => __( 'Text Options', 'alg-ajax-product-search-for-wc' ),
+					'title' => __( 'Text Options', 'ajax-product-search-woocommerce' ),
 					'type'  => 'title',
 					'id'    => 'alg_wc_aps_txts_opt',
 				),
 				array(
-					'title'    => __( 'Input too short', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when input is not long enough to start searching', 'alg-ajax-product-search-for-wc' ),
-					'desc_tip' => __( '%d is going to be replaced by the amount of characters missing to start searching', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Input too short', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when input is not long enough to start searching', 'ajax-product-search-woocommerce' ),
+					'desc_tip' => __( '%d is going to be replaced by the amount of characters missing to start searching', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_INPUT_TOO_SHORT,
-					'default'  => __( 'Please enter %d or more characters', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Please enter %d or more characters', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'Input too long', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when input exceeded the maximum characters allowed', 'alg-ajax-product-search-for-wc' ),
-					'desc_tip' => __( '%d is going to be replaced by the amount of characters missing to start searching', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Input too long', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when input exceeded the maximum characters allowed', 'ajax-product-search-woocommerce' ),
+					'desc_tip' => __( '%d is going to be replaced by the amount of characters missing to start searching', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_INPUT_TOO_LONG,
-					'default'  => __( 'Please delete %d or more characters', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Please delete %d or more characters', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'Error loading', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when some error occurs', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Error loading', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when some error occurs', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_ERROR_LOADING,
-					'default'  => __( 'Error loading results', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Error loading results', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'Loading more', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when there are more results to be loaded', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Loading more', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when there are more results to be loaded', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_LOADING_MORE,
-					'default'  => __( 'Loading more...', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Loading more...', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'View all results', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed with a link pointing to a page showing all search results', 'alg-ajax-product-search-for-wc' ),
-					'desc_tip' => __( '%d is going to be replaced by search results amount', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'View all results', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed with a link pointing to a page showing all search results', 'ajax-product-search-woocommerce' ),
+					'desc_tip' => __( '%d is going to be replaced by search results amount', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_VIEW_ALL_RESULTS,
-					'default'  => __( 'View all results (%d)', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'View all results (%d)', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'No results', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when there are no found results', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'No results', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when there are no found results', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_NO_RESULTS,
-					'default'  => __( 'No results found', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'No results found', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),
 				array(
-					'title'    => __( 'Loading', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Text displayed when products are being searched', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Loading', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Text displayed when products are being searched', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_SEARCHING,
-					'default'  => __( 'Loading...', 'alg-ajax-product-search-for-wc' ),
+					'default'  => __( 'Loading...', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
 
 				),

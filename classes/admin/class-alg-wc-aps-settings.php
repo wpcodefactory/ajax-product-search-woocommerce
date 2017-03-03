@@ -23,7 +23,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings' ) ) :
 		 */
 		function __construct() {
 			$this->id    = 'alg_wc_aps';
-			$this->label = __( 'Ajax Product Search', 'alg-ajax-product-search-for-wc' );
+			$this->label = __( 'Ajax Product Search', 'ajax-product-search-woocommerce' );
 			parent::__construct();
 		}
 

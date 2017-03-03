@@ -131,9 +131,9 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @since   1.0.0
 		 */
 		public function handle_localization() {
-			$locale = apply_filters( 'plugin_locale', get_locale(), 'alg-ajax-product-search-for-wc' );
-			load_textdomain( 'alg-ajax-product-search-for-wc', WP_LANG_DIR . dirname( ALG_WC_APS_BASENAME ) . 'alg-ajax-product-search-for-wc' . '-' . $locale . '.mo' );
-			load_plugin_textdomain( 'alg-ajax-product-search-for-wc', false, dirname( ALG_WC_APS_BASENAME ) . '/languages/' );
+			$locale = apply_filters( 'plugin_locale', get_locale(), 'ajax-product-search-woocommerce' );
+			load_textdomain( 'ajax-product-search-woocommerce', WP_LANG_DIR . dirname( ALG_WC_APS_BASENAME ) . 'ajax-product-search-woocommerce' . '-' . $locale . '.mo' );
+			load_plugin_textdomain( 'ajax-product-search-woocommerce', false, dirname( ALG_WC_APS_BASENAME ) . '/languages/' );
 		}
 
 		/**

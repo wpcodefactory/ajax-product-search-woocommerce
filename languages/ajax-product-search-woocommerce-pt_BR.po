@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Alg - Ajax Product Search for WooCommerce\n"
-"POT-Creation-Date: 2017-02-28 18:25-0300\n"
-"PO-Revision-Date: 2017-02-28 18:27-0300\n"
+"POT-Creation-Date: 2017-03-03 13:49-0300\n"
+"PO-Revision-Date: 2017-03-03 13:49-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -59,6 +59,35 @@ msgid ""
 msgstr ""
 "Ele é necessário para esse plugin funcionar. Se você está incerto, por favor "
 "deixe a opção ativada"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:29
+msgid "Search"
+msgstr "Busca"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:42
+msgid "Cache"
+msgstr "Cache"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:47
+msgid "Enable cache"
+msgstr "Ativar cache"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:48
+msgid "Saves search results in a transient"
+msgstr "Salva os resultados da busca no cache"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:49
+msgid "It helps improving search speed in high traffic sites"
+msgstr "Ajuda a melhorar o resultado de busca nos sites com muitos acessos"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:55
+msgid "Cache timeout"
+msgstr "Tempo de esgotamento do cache"
+
+#: classes/admin/class-alg-wc-aps-settings-search.php:56
+msgid "The amount of time results will be stored in transient (in hours)"
+msgstr ""
+"A quantidade de tempo que os resultados serão guardados no cache (em horas)"
 
 #: classes/admin/class-alg-wc-aps-settings-texts.php:34
 msgid "Texts"
@@ -181,25 +210,28 @@ msgstr "Carregando..."
 msgid "Ajax Product Search"
 msgstr ""
 
-#: classes/class-alg-wc-aps-core.php:172
+#: classes/class-alg-wc-aps-core.php:181
 msgid "Settings"
 msgstr "Ajustes"
 
 #: classes/class-alg-wc-aps-product-searcher-shortcode-manager.php:40
-#: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:62
-#: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:63
+#: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:70
+#: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:79
 msgid "Search products"
 msgstr "Buscar produtos"
 
 #: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:26
-msgid "Ajax product search input"
-msgstr "Input do Ajax product search"
+msgid "Ajax Product Search Input"
+msgstr ""
 
 #: classes/class-alg-wc-aps-product-searcher-widget-search-input.php:27
 msgid ""
 "An input that searches WooCommerce products using an autocomplete feature"
 msgstr ""
 "Um input que busca produtos do WooCommerce usando o recurso de Autocomplete"
+
+#~ msgid "Ajax product search input"
+#~ msgstr "Input do Ajax product search"
 
 #~ msgid "Search produts"
 #~ msgstr "Buscar produtos"

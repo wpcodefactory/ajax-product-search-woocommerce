@@ -27,7 +27,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		 */
 		function __construct( $handle_autoload = true ) {
 			$this->id   = '';
-			$this->desc = __( 'General', 'alg-ajax-product-search-for-wc' );
+			$this->desc = __( 'General', 'ajax-product-search-woocommerce' );
 			parent::__construct( $handle_autoload );
 		}
 
@@ -40,12 +40,12 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		function get_settings( $settings = null ) {
 			$new_settings = array(
 				array(
-					'title'    => __( 'General Options', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'General Options', 'ajax-product-search-woocommerce' ),
 					'type'     => 'title',
 					'id'       => 'alg_wc_aps_opt',
 				),
 				/*array(
-					'title'       => __( 'Pro', 'alg-ajax-product-search-for-wc' ),
+					'title'       => __( 'Pro', 'ajax-product-search-woocommerce' ),
 					'type'        => 'meta_box',
 					'show_in_pro' => false,
 					'title'       => 'Pro version',
@@ -53,16 +53,16 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 					'id'          => self::OPTION_METABOX_PRO,
 				),*/
 				array(
-					'title'    => __( 'Enable Plugin', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Enable "Ajax Product Search for WooCommerce" plugin', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Enable Plugin', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Enable "Ajax Product Search for WooCommerce" plugin', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_ENABLE_PLUGIN,
 					'default'  => 'yes',
 					'type'     => 'checkbox',
 				),
 				array(
-					'title'    => __( 'Load Select2', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => sprintf( __( 'Loads most recent version of <a target="_blank" href="%s">Select2</a>', 'alg-ajax-product-search-for-wc' ), 'https://select2.github.io/' ),
-					'desc_tip' => __( 'Mark this only if you are not loading Select2 nowhere else. Select2 is responsible for improving the html select element.', 'alg-ajax-product-search-for-wc' ).'<br />'.__( 'It is required for this plugin to work. If you are uncertain, please let it enabled.', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Load Select2', 'ajax-product-search-woocommerce' ),
+					'desc'     => sprintf( __( 'Loads most recent version of <a target="_blank" href="%s">Select2</a>', 'ajax-product-search-woocommerce' ), 'https://select2.github.io/' ),
+					'desc_tip' => __( 'Mark this only if you are not loading Select2 nowhere else. Select2 is responsible for improving the html select element.', 'ajax-product-search-woocommerce' ).'<br />'.__( 'It is required for this plugin to work. If you are uncertain, please let it enabled.', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_SELECT2_ENABLE,
 					'default'  => 'yes',
 					'type'     => 'checkbox',
@@ -85,21 +85,21 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		 * @since   1.0.0
 		 */
 		/*function get_meta_box_pro_description() {
-			$presentation   = __( 'Do you like the free version of this plugin? Imagine what the Pro version can do for you!', 'alg-ajax-product-search-for-wc' );
+			$presentation   = __( 'Do you like the free version of this plugin? Imagine what the Pro version can do for you!', 'ajax-product-search-woocommerce' );
 			$url            = 'https://coder.fm/item/ajax-product-search-for-woocommerce/';
-			$links          = sprintf( wp_kses( __( 'Check it out <a target="_blank" href="%s">here</a> or on this link: <a target="_blank" href="%s">%s</a>', 'alg-ajax-product-search-for-wc' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $url ), esc_url( $url ), esc_url( $url ) );
-			$features_title = __( 'Take a look on some of its features:', 'alg-ajax-product-search-for-wc' );
+			$links          = sprintf( wp_kses( __( 'Check it out <a target="_blank" href="%s">here</a> or on this link: <a target="_blank" href="%s">%s</a>', 'ajax-product-search-woocommerce' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $url ), esc_url( $url ), esc_url( $url ) );
+			$features_title = __( 'Take a look on some of its features:', 'ajax-product-search-woocommerce' );
 			$features       = array(
-				__( 'Style your buttons easily', 'alg-ajax-product-search-for-wc' ),
-				__( 'Choose in real time which comparison list columns will be displayed on front-end', 'alg-ajax-product-search-for-wc' ),
-				__( 'Sort products on the comparison list by any field', 'alg-ajax-product-search-for-wc' ),
+				__( 'Style your buttons easily', 'ajax-product-search-woocommerce' ),
+				__( 'Choose in real time which comparison list columns will be displayed on front-end', 'ajax-product-search-woocommerce' ),
+				__( 'Sort products on the comparison list by any field', 'ajax-product-search-woocommerce' ),
 			);
 			$features_str   =
 				"<ul style='list-style:square inside'>" .
 				"<li>" . implode( "</li><li>", $features ) . "</li>" .
 				"</ul>";
 
-			$call_to_action = sprintf( __( '<a target="_blank" style="margin:9px 0 15px 0;" class="button-primary" href="%s">Upgrade to Pro version now</a> ', 'alg-ajax-product-search-for-wc' ), esc_url( $url ) );
+			$call_to_action = sprintf( __( '<a target="_blank" style="margin:9px 0 15px 0;" class="button-primary" href="%s">Upgrade to Pro version now</a> ', 'ajax-product-search-woocommerce' ), esc_url( $url ) );
 
 			return "
 				<p>{$presentation}<br/>

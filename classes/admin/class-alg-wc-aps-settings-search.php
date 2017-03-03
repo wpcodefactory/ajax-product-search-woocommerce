@@ -26,7 +26,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Search' ) ) {
 		 */
 		function __construct( $handle_autoload = true ) {
 			$this->id   = 'search';
-			$this->desc = __( 'Search', 'alg-ajax-product-search-for-wc' );
+			$this->desc = __( 'Search', 'ajax-product-search-woocommerce' );
 			parent::__construct( $handle_autoload );
 		}
 
@@ -39,21 +39,21 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Search' ) ) {
 		function get_settings( $settings = null ) {
 			$new_settings = array(
 				array(
-					'title'    => __( 'Cache', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Cache', 'ajax-product-search-woocommerce' ),
 					'type'     => 'title',
 					'id'       => 'alg_wc_aps_search_cache_opt',
 				),
 				array(
-					'title'    => __( 'Enable cache', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'Saves search results in a transient', 'alg-ajax-product-search-for-wc' ),
-					'desc_tip' => __( 'It helps improving search speed in high traffic sites', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Enable cache', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Saves search results in a transient', 'ajax-product-search-woocommerce' ),
+					'desc_tip' => __( 'It helps improving search speed in high traffic sites', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_CACHE_ENABLE,
 					'default'  => 'yes',
 					'type'     => 'checkbox',
 				),
 				array(
-					'title'    => __( 'Cache timeout', 'alg-ajax-product-search-for-wc' ),
-					'desc'     => __( 'The amount of time results will be stored in transient (in hours)', 'alg-ajax-product-search-for-wc' ),
+					'title'    => __( 'Cache timeout', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'The amount of time results will be stored in transient (in hours)', 'ajax-product-search-woocommerce' ),
 					'id'       => self::OPTION_CACHE_TIME,
 					'default'  => '4',
 					'type'     => 'number',

@@ -23,8 +23,8 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 		function __construct() {
 			parent::__construct(
 				'alg_wc_aps_search_input', // Base ID
-				esc_html__( 'Ajax Product Search Input', 'alg-ajax-product-search-for-wc' ), // Name
-				array( 'description' => esc_html__( 'An input that searches WooCommerce products using an autocomplete feature', 'alg-ajax-product-search-for-wc' ), ) // Args
+				esc_html__( 'Ajax Product Search Input', 'ajax-product-search-woocommerce' ), // Name
+				array( 'description' => esc_html__( 'An input that searches WooCommerce products using an autocomplete feature', 'ajax-product-search-woocommerce' ), ) // Args
 			);
 		}
 
@@ -64,19 +64,19 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 			?>
             <p>
                 <label
-                        for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title:', 'alg-ajax-product-search-for-wc' ); ?></label>
+                        for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_attr_e( 'Title:', 'ajax-product-search-woocommerce' ); ?></label>
                 <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"
                        name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text"
-                       placeholder="<?php echo esc_attr( __( 'Search products', 'alg-ajax-product-search-for-wc' ) ); ?>"
+                       placeholder="<?php echo esc_attr( __( 'Search products', 'ajax-product-search-woocommerce' ) ); ?>"
                        value="<?php echo esc_attr( $title ); ?>">
             </p>
 
             <p>
                 <label
-                        for="<?php echo esc_attr( $this->get_field_id( 'placeholder' ) ); ?>"><?php esc_attr_e( 'Placeholder:', 'alg-ajax-product-search-for-wc' ); ?></label>
+                        for="<?php echo esc_attr( $this->get_field_id( 'placeholder' ) ); ?>"><?php esc_attr_e( 'Placeholder:', 'ajax-product-search-woocommerce' ); ?></label>
                 <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'placeholder' ) ); ?>"
                        name="<?php echo esc_attr( $this->get_field_name( 'placeholder' ) ); ?>" type="text"
-                       placeholder="<?php echo esc_attr( __( 'Search products', 'alg-ajax-product-search-for-wc' ) ); ?>"
+                       placeholder="<?php echo esc_attr( __( 'Search products', 'ajax-product-search-woocommerce' ) ); ?>"
                        value="<?php echo esc_attr( $placeholder ); ?>">
             </p>
 			<?php
