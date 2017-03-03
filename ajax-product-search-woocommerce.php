@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Ajax Product Search for WooCommerce
+Plugin Name: Ajax Product Search for WooCommerce by Algoritmika
 Description: Provides an autocomplete feature to search WooCommerce products
 Version: 1.0.0
 Author: Algoritmika Ltd

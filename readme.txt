@@ -1,4 +1,4 @@
-=== Ajax Product Search for WooCommerce ===
+=== Ajax Product Search for WooCommerce by Algoritmika ===
 Contributors: algoritmika,karzin,anbinder
 Tags: woocommerce,ajax,search products,search,autocomplete,products
 Requires at least: 4.4
