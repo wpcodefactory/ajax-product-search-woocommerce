@@ -138,6 +138,20 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		}
 
 		/**
+		 * Create custom settings fields
+		 *
+		 * @version 1.0.1
+		 * @since   1.0.1
+		 */
+		private function create_custom_settings_fields() {
+			$value = 'meta_box';
+			add_action( 'woocommerce_admin_field_' . $value, array(
+				Alg_WC_APS_CMB::get_class_name(),
+				'add_meta_box',
+			), 10, 2 );
+		}
+
+		/**
 		 * Init admin fields
 		 *
 		 * @version 1.0.1
@@ -150,6 +164,8 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 
 			add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
 			add_filter( 'plugin_action_links_' . ALG_WC_APS_BASENAME, array( $this, 'action_links' ) );
+
+			$this->create_custom_settings_fields();
 
 			// Admin setting options inside WooCommerce
 			new Alg_WC_APS_Settings_General();

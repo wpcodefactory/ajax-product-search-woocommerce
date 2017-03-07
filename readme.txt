@@ -30,6 +30,18 @@ Provides an autocomplete feature to search WooCommerce products.
 = More =
 If you are interested in contributing - head over to the [Ajax Product Search for WooCommerce plugin GitHub Repository](https://github.com/algoritmika/ajax-product-search-for-woocommerce) to find out how you can pitch in.
 
+= Pro version =
+
+Do you like the free version of this plugin? Imagine what the Pro version can do for you!
+Check it out [here](https://coder.fm/item/ajax-product-search-woocommerce-algoritmika "Ajax Product Search for WooCommerce Pro by Algoritmika")!
+https://coder.fm/item/ajax-product-search-woocommerce-algoritmika
+
+**Take a look on some of its features:**
+
+* Display the product thumbnail on search results
+* Display the product price on search results
+* Display the product categories on search results
+
 == Installation ==
 
 1. Upload the entire 'ajax-product-search-for-woocommerce' folder to the '/wp-content/plugins/' directory.

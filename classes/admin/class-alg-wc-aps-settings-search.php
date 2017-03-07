@@ -1,6 +1,6 @@
 <?php
 /**
- * Ajax Product Search for WooCommerce Pro - Search Settings
+ * Ajax Product Search for WooCommerce - Search Settings
  *
  * @version 1.0.0
  * @since   1.0.0
