@@ -143,7 +143,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @version 1.0.1
 		 * @since   1.0.1
 		 */
-		private function create_custom_settings_fields() {
+		protected function create_custom_settings_fields() {
 			$value = 'meta_box';
 			add_action( 'woocommerce_admin_field_' . $value, array(
 				Alg_WC_APS_CMB::get_class_name(),
