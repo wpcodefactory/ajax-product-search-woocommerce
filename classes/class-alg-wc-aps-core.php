@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce  - Core Class
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -55,7 +55,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		/**
 		 * Constructor.
 		 *
-		 * @version 1.0.0
+		 * @version 1.0.1
 		 * @since   1.0.0
 		 */
 		function __construct() {
@@ -63,10 +63,11 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 			$this->handle_localization();
 
 			// Init admin part
-			add_action( 'woocommerce_init', array( $this, 'init_admin' ), 20 );
+			if(is_admin()){
+				$this->init_admin();
+			}
 
 			if ( true === filter_var( get_option( Alg_WC_APS_Settings_General::OPTION_ENABLE_PLUGIN, true ), FILTER_VALIDATE_BOOLEAN ) ) {
-
 				$this->init_frontend();
 			}
 		}
@@ -74,7 +75,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		/**
 		 * Load scripts and styles
 		 *
-		 * @version 1.1.0
+		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
 		function enqueue_scripts() {
@@ -139,14 +140,16 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		/**
 		 * Init admin fields
 		 *
-		 * @version 1.0.0
+		 * @version 1.0.1
 		 * @since   1.0.0
 		 */
 		public function init_admin() {
-			if ( is_admin() ) {
-				add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
-				add_filter( 'plugin_action_links_' . ALG_WC_APS_BASENAME, array( $this, 'action_links' ) );
+			if ( !is_admin() ) {
+				return;
 			}
+
+			add_filter( 'woocommerce_get_settings_pages', array( $this, 'add_woocommerce_settings_tab' ) );
+			add_filter( 'plugin_action_links_' . ALG_WC_APS_BASENAME, array( $this, 'action_links' ) );
 
 			// Admin setting options inside WooCommerce
 			new Alg_WC_APS_Settings_General();

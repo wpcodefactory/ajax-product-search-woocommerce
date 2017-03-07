@@ -46,6 +46,7 @@ If you are interested in contributing - head over to the [Ajax Product Search fo
 == Changelog ==
 
 = 1.0.1 - 07/03/2016 =
+* Improve performance. Loading admin fields only on admin
 * New screenshots
 * Better plugin description
 
@@ -55,4 +56,4 @@ If you are interested in contributing - head over to the [Ajax Product Search fo
 == Upgrade Notice ==
 
 = 1.0.1 =
-New screenshots and better plugin description
+Improve performance. Loading admin fields only on admin
