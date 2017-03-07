@@ -2,8 +2,8 @@
 /**
  * Ajax Product Search for WooCommerce - Custom Meta Box setting field
  *
- * @version 1.1.0
- * @since   1.1.0
+ * @version 1.0.1
+ * @since   1.0.1
  * @author  Algoritmika Ltd.
  */
 
@@ -18,13 +18,13 @@ if ( ! class_exists( 'Alg_WC_APS_CMB' ) ) {
 		/**
 		 * Creates meta box
 		 *
-		 * @version 1.1.0
-		 * @since   1.1.0
+		 * @version 1.0.1
+		 * @since   1.0.1
 		 */
 		public static function add_meta_box( $value ) {
 			// Doesn't show metabox if show_in_pro = false and it's loading from pro
 			if ( ! $value['show_in_pro'] ) {
-				if ( defined( 'ALG_WC_CP_PRO_DIR' ) ) {
+				if ( defined( 'ALG_WC_APS_PRO_DIR' ) ) {
 					return;
 				}
 			}
@@ -48,8 +48,8 @@ if ( ! class_exists( 'Alg_WC_APS_CMB' ) ) {
 		/**
 		 * Returns class name
 		 *
-		 * @version 1.1.0
-		 * @since   1.1.0
+		 * @version 1.0.1
+		 * @since   1.0.1
 		 * @return type
 		 */
 		public static function get_class_name() {
