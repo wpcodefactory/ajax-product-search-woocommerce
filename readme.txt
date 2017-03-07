@@ -3,7 +3,7 @@ Contributors: algoritmika,karzin,anbinder
 Tags: woocommerce,ajax,search products,search,autocomplete,products
 Requires at least: 4.4
 Tested up to: 4.7
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,6 +17,7 @@ Provides an autocomplete feature to search WooCommerce products.
 * Search WooCommerce products using an AJAX Autocomplete feature
 * Search using an infinite scroll pagination when results are too many
 * Customize all texts that will be displayed on search input
+* Saves results in cache improving search speed and saving bandwidth
 
 = Shortcodes =
 *  **[alg_wc_aps_input]** Displays the search input
@@ -38,14 +39,20 @@ If you are interested in contributing - head over to the [Ajax Product Search fo
 == Screenshots ==
 
 1. Search products using an Autocomplete feature
-2. Customize all texts that will be displayed on search input
+2. Choose to turn on/off the plugin by its own panel on admin
+3. Customize all texts that will be displayed on search input
+4. Saves results in cache improving search speed and saving bandwidth
 
 == Changelog ==
+
+= 1.0.1 - 07/03/2016 =
+* New screenshots
+* Better plugin description
 
 = 1.0.0 - 02/03/2016 =
 * Initial Release.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-This is the first release of the plugin.
+= 1.0.1 =
+New screenshots and better plugin description
