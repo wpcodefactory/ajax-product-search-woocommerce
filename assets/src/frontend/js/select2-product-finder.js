@@ -1,8 +1,8 @@
 /**
  * @summary Finds products using select2
  *
- * @version   1.0.1
- * @since     1.0.1
+ * @version   1.0.2
+ * @since     1.0.0
  * @requires  jQuery.js
  */
 jQuery(function ($) {
