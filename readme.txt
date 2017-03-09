@@ -41,7 +41,7 @@ Check it out [here](https://coder.fm/item/ajax-product-search-woocommerce-algori
 * Display product price on search results
 * Display product categories on search results
 * Option to select multiple results
-* Choose if you want to redirect to search result selection or not
+* Choose if you want to redirect on search result selection or not
 
 == Installation ==
 
@@ -73,5 +73,5 @@ Check it out [here](https://coder.fm/item/ajax-product-search-woocommerce-algori
 
 == Upgrade Notice ==
 
-= 1.0.1 =
-Improve performance. Loading admin fields only on admin
+= 1.0.2 =
+Fix plugin's old slug on some places

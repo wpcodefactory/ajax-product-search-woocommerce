@@ -94,7 +94,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 				__( 'Display product price on search results', 'ajax-product-search-woocommerce' ),
 				__( 'Display product categories on search results', 'ajax-product-search-woocommerce' ),
 				__( 'Option to select multiple results', 'ajax-product-search-woocommerce' ),
-				__( 'Choose if you want to redirect to search result selection or not', 'ajax-product-search-woocommerce' ),
+				__( 'Choose if you want to redirect on search result selection or not', 'ajax-product-search-woocommerce' ),
 			);
 			$features_str   =
 				"<ul style='list-style:square inside'>" .
