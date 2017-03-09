@@ -90,9 +90,11 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 			$links          = sprintf( wp_kses( __( 'Check it out <a target="_blank" href="%s">here</a> or on this link: <a target="_blank" href="%s">%s</a>', 'ajax-product-search-woocommerce' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $url ), esc_url( $url ), esc_url( $url ) );
 			$features_title = __( 'Take a look on some of its features:', 'ajax-product-search-woocommerce' );
 			$features       = array(
-				__( 'Display the product thumbnail on search results', 'ajax-product-search-woocommerce' ),
-				__( 'Display the product price on search results', 'ajax-product-search-woocommerce' ),
-				__( 'Display the product categories on search results', 'ajax-product-search-woocommerce' ),
+				__( 'Display product thumbnail on search results', 'ajax-product-search-woocommerce' ),
+				__( 'Display product price on search results', 'ajax-product-search-woocommerce' ),
+				__( 'Display product categories on search results', 'ajax-product-search-woocommerce' ),
+				__( 'Option to select multiple results', 'ajax-product-search-woocommerce' ),
+				__( 'Choose if you want to redirect to search result selection or not', 'ajax-product-search-woocommerce' ),
 			);
 			$features_str   =
 				"<ul style='list-style:square inside'>" .

@@ -52,7 +52,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 			$cache_time = esc_attr( filter_var( get_option( Alg_WC_APS_Settings_Search::OPTION_CACHE_TIME, true ), FILTER_VALIDATE_INT ) );
 
 			echo "
-			<select data-cache_timeout='{$cache_time}' data-cache_results='{$cache}' placeholder='{$placeholder}' class='{$class}' style='{$style}'>
+			<select data-redirect='true' data-cache_timeout='{$cache_time}' data-cache_results='{$cache}' placeholder='{$placeholder}' class='{$class}' style='{$style}'>
 			</select>
 			";
 		}

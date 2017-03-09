@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce  - Search input Widget
  *
- * @version 1.0.0
+ * @version 1.0.2
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -32,7 +32,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 		 * Front-end display of widget.
 		 *
 		 * @see     WP_Widget::widget()
-		 * @version 1.0.0
+		 * @version 1.0.2
 		 * @since   1.0.0
 		 *
 		 * @param array $args     Widget arguments.
@@ -43,8 +43,8 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Widget_Search_Input' ) ) {
 			if ( ! empty( $instance['title'] ) ) {
 				echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
 			}
-			$alg_wc_aps = alg_ajax_product_search_for_wc();
-			$input      = do_shortcode( "[" . Alg_WC_APS_Product_Searcher_Shortcode_Manager::TAG_SEARCH_INPUT . " placeholder='{$instance['placeholder']}' ]" );
+			$placeholder = ! empty( $instance['placeholder'] ) ? esc_html( sanitize_text_field( $instance['placeholder'] ) ) : '';
+			$input      = do_shortcode( "[" . Alg_WC_APS_Product_Searcher_Shortcode_Manager::TAG_SEARCH_INPUT . " placeholder='{$placeholder}' ]" );
 			echo $input;
 			echo $args['after_widget'];
 		}
