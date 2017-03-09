@@ -22,7 +22,7 @@ Provides an autocomplete feature to search WooCommerce products.
 = Shortcodes =
 *  **[alg_wc_aps_input]** Displays the search input
    * Params
-      * **placeholder** Changes input placeholder
+      * **placeholder** - **string** - Changes input placeholder
 
 = Feedback =
 * We are open to your suggestions and feedback. Thank you for using or trying out one of our plugins!
@@ -62,6 +62,7 @@ Check it out [here](https://coder.fm/item/ajax-product-search-woocommerce-algori
 * Fix plugin's old slug on some places
 * Escape widget's placeholder text
 * Add more pro version features
+* Info about shortcode
 
 = 1.0.1 - 07/03/2016 =
 * Improve performance. Loading admin fields only on admin
