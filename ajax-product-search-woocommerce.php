@@ -103,7 +103,7 @@ if ( ! function_exists( 'alg_wc_aps_start_plugin' ) ) {
 	function alg_wc_aps_start_plugin() {
 		// Includes composer dependencies
 		require __DIR__ . '/vendor/autoload.php';
-
+		
 		alg_ajax_product_search_for_wc();
 	}
 }
