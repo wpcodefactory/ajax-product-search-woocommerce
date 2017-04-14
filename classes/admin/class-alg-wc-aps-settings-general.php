@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce - General Section Settings
  *
- * @version 1.0.0
+ * @version 1.0.3
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -19,6 +19,8 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		const OPTION_SELECT2_ENABLE = 'alg_wc_aps_select2_enable';
 		const OPTION_METABOX_PRO   = 'alg_wc_aps_cmb_pro';
 
+		protected $pro_version_url = 'https://coder.fm/item/ajax-product-search-woocommerce-algoritmika/';
+
 		/**
 		 * Constructor.
 		 *
@@ -34,7 +36,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		/**
 		 * get_settings.
 		 *
-		 * @version 1.0.0
+		 * @version 1.0.3
 		 * @since   1.0.0
 		 */
 		function get_settings( $settings = null ) {
@@ -45,12 +47,36 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 					'id'       => 'alg_wc_aps_opt',
 				),
 				array(
-					'title'       => __( 'Pro', 'ajax-product-search-woocommerce' ),
-					'type'        => 'meta_box',
-					'show_in_pro' => false,
-					'title'       => 'Pro version',
-					'description' => $this->get_meta_box_pro_description(),
-					'id'          => self::OPTION_METABOX_PRO,
+					'title'          => 'Pro version',
+					'enable'         => !class_exists('Alg_WC_CIVS_Pro_Core'),
+					'type'           => 'wccso_metabox',
+					'show_in_pro'    => false,
+					'accordion'      => array(
+						'title' => __( 'Take a look on some of its features:', 'ajax-product-search-woocommerce' ),
+						'items' => array(
+							array(
+								'trigger' => __( 'Display product thumbnail, price and categories on search results', 'ajax-product-search-woocommerce'),
+								'img_src' => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/autocomplete.png',
+							),
+							array(
+								'trigger'     => __( 'Option to select multiple results', 'ajax-product-search-woocommerce' ),
+								'img_src'     => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/multiple-selection.png',
+							),
+							array(
+								'trigger' => __( 'Choose if you want to redirect on search result selection', 'ajax-product-search-woocommerce' ),
+							),
+							array(
+								'trigger' => __( 'Support', 'ajax-product-search-woocommerce' ),
+							),
+
+						),
+					),
+					'call_to_action' => array(
+						'href'  => $this->pro_version_url,
+						'label' => 'Upgrade to Pro version now',
+					),
+					'description'    => __( 'Do you like the free version of this plugin? Imagine what the Pro version can do for you!', 'ajax-product-search-woocommerce' ) . '<br />' . sprintf( __( 'Check it out <a target="_blank" href="%1$s">here</a> or on this link: <a target="_blank" href="%1$s">%1$s</a>', 'ajax-product-search-woocommerce' ), esc_url( $this->pro_version_url ) ),
+					'id'             => self::OPTION_METABOX_PRO,
 				),
 				array(
 					'title'    => __( 'Enable Plugin', 'ajax-product-search-woocommerce' ),
@@ -75,42 +101,5 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 
 			return parent::get_settings( array_merge( $settings, $new_settings ) );
 		}
-
-		/**
-		 * Gets meta box description.
-		 *
-		 * The description is about the pro version of the plugin
-		 *
-		 * @version 1.0.0
-		 * @since   1.0.0
-		 */
-		function get_meta_box_pro_description() {
-			$presentation   = __( 'Do you like the free version of this plugin? Imagine what the Pro version can do for you!', 'ajax-product-search-woocommerce' );
-			$url            = 'https://coder.fm/item/ajax-product-search-woocommerce-algoritmika/';
-			$links          = sprintf( wp_kses( __( 'Check it out <a target="_blank" href="%s">here</a> or on this link: <a target="_blank" href="%s">%s</a>', 'ajax-product-search-woocommerce' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( $url ), esc_url( $url ), esc_url( $url ) );
-			$features_title = __( 'Take a look on some of its features:', 'ajax-product-search-woocommerce' );
-			$features       = array(
-				__( 'Display product thumbnail on search results', 'ajax-product-search-woocommerce' ),
-				__( 'Display product price on search results', 'ajax-product-search-woocommerce' ),
-				__( 'Display product categories on search results', 'ajax-product-search-woocommerce' ),
-				__( 'Option to select multiple results', 'ajax-product-search-woocommerce' ),
-				__( 'Choose if you want to redirect on search result selection', 'ajax-product-search-woocommerce' ),
-			);
-			$features_str   =
-				"<ul style='list-style:square inside'>" .
-				"<li>" . implode( "</li><li>", $features ) . "</li>" .
-				"</ul>";
-
-			$call_to_action = sprintf( __( '<a target="_blank" style="margin:9px 0 15px 0;" class="button-primary" href="%s">Upgrade to Pro version now</a> ', 'ajax-product-search-woocommerce' ), esc_url( $url ) );
-
-			return "
-				<p>{$presentation}<br/>
-				{$links}</p>
-				<strong>{$features_title}</strong>
-				{$features_str}
-				{$call_to_action}
-			";
-		}
-
 	}
 }

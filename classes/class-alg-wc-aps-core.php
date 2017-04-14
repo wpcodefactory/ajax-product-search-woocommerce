@@ -144,11 +144,12 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 		 * @since   1.0.1
 		 */
 		protected function create_custom_settings_fields() {
-			$value = 'meta_box';
+			WCCSO_Metabox::get_instance();
+			/*$value = 'meta_box';
 			add_action( 'woocommerce_admin_field_' . $value, array(
 				Alg_WC_APS_CMB::get_class_name(),
 				'add_meta_box',
-			), 10, 2 );
+			), 10, 2 );*/
 		}
 
 		/**
