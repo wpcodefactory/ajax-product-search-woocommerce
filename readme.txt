@@ -21,6 +21,9 @@ Provides an autocomplete feature to search WooCommerce products.
 
 == Frequently Asked Questions ==
 
+= Are there any widgets available? =
+**Ajax Product Search Input** - Displays the search input
+
 = Are there shortcodes available? =
 *  **[alg_wc_aps_input]** Displays the search input
    * Params
@@ -40,7 +43,8 @@ Yes, it's located [here](https://coder.fm/item/ajax-product-search-woocommerce-a
 * Display product price on search results
 * Display product categories on search results
 * Option to select multiple results
-* Choose if you want to redirect on search result selection
+* Choose if you want to redirect on search result selection or not
+* Support
 
 = Can I see what the Pro version is capable of? =
 Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Search.**
