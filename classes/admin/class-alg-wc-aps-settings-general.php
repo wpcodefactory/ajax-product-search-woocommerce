@@ -19,7 +19,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		const OPTION_SELECT2_ENABLE = 'alg_wc_aps_select2_enable';
 		const OPTION_METABOX_PRO   = 'alg_wc_aps_cmb_pro';
 
-		protected $pro_version_url = 'https://coder.fm/item/ajax-product-search-woocommerce-algoritmika/';
+		protected $pro_version_url = 'https://wpcodefactory.com/item/ajax-product-search-woocommerce-algoritmika/';
 
 		/**
 		 * Constructor.
