@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce - General Section Settings
  *
- * @version 1.0.3
+ * @version 1.0.4
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -36,7 +36,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		/**
 		 * get_settings.
 		 *
-		 * @version 1.0.3
+		 * @version 1.0.4
 		 * @since   1.0.0
 		 */
 		function get_settings( $settings = null ) {
@@ -48,9 +48,8 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 				),
 				array(
 					'title'          => 'Pro version',
-					'enable'         => !class_exists('Alg_WC_APS_Core'),
+					'enable'         => !class_exists('Alg_WC_APS_Pro_Core'),
 					'type'           => 'wccso_metabox',
-					'show_in_pro'    => false,
 					'accordion'      => array(
 						'title' => __( 'Take a look on some of its features:', 'ajax-product-search-woocommerce' ),
 						'items' => array(
