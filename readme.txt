@@ -67,6 +67,7 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 = 1.0.4 - 20/04/2017 =
 * Fix metabox about pro
 * Fix gitignore to not exclude important folders
+* Update coder.fm url
 
 = 1.0.3 - 14/04/2017 =
 * Better plugin description
