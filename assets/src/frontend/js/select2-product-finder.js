@@ -38,7 +38,8 @@ jQuery(function ($) {
 			search_inputs.each(function () {
 				var this_input = $(this);
 				this_input.select2({
-					dropdownCssClass :'alg-wc-aps-container',
+					containerCssClass:'alg-wc-aps-select',
+					dropdownCssClass :'alg-wc-aps-dropdown',
 					minimumResultsForSearch: Infinity,
 					maximumInputLength: 40,
 					minimumInputLength: select2_product_finder.minimum_input_length(this_input),
