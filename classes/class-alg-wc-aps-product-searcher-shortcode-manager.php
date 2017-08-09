@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce  - Product searcher shortcode manager
  *
- * @version 1.0.0
+ * @version 1.0.5
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -29,7 +29,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 		/**
 		 * Creates the search input.
 		 *
-		 * @version 1.0.0
+		 * @version 1.0.5
 		 * @since   1.0.0
 		 */
 		public function create_search_input( $atts ) {
@@ -51,7 +51,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 			$cache      = esc_attr( filter_var( get_option( Alg_WC_APS_Settings_Search::OPTION_CACHE_ENABLE, true ), FILTER_VALIDATE_BOOLEAN ) );
 			$cache_time = esc_attr( filter_var( get_option( Alg_WC_APS_Settings_Search::OPTION_CACHE_TIME, true ), FILTER_VALIDATE_INT ) );
 
-			echo "
+			return "
 			<select data-redirect='true' data-cache_timeout='{$cache_time}' data-cache_results='{$cache}' placeholder='{$placeholder}' class='{$class}' style='{$style}'>
 			</select>
 			";

@@ -2,12 +2,12 @@
 Contributors: algoritmika,karzin,anbinder
 Tags: woocommerce,ajax,search products,search,autocomplete,products
 Requires at least: 4.4
-Tested up to: 4.7
-Stable tag: 1.0.4
+Tested up to: 4.8
+Stable tag: 1.0.5
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Provides an autocomplete feature to search WooCommerce products.
+Provides an input with autocomplete feature to search WooCommerce products.
 
 == Description ==
 
@@ -64,6 +64,9 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Changelog ==
 
+= 1.0.5 - 09/08/2017 =
+* Fix shortcode echoing
+
 = 1.0.4 - 20/04/2017 =
 * Fix metabox about pro
 * Fix gitignore to not exclude important folders
@@ -89,6 +92,5 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Upgrade Notice ==
 
-= 1.0.4 =
-* Fix metabox about pro
-* Fix gitignore to not exclude important folders
+= 1.0.5 =
+* Fix shortcode echoing
