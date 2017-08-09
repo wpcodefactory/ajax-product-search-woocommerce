@@ -103,7 +103,7 @@ if ( ! class_exists( 'Alg_WC_APS_Core' ) ) {
 					wp_dequeue_style( 'select2' );
 				}
 
-				wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js', array( 'jquery' ), false, true );
+				wp_register_script( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js', array( 'jquery' ), false, true );
 				wp_enqueue_script( 'alg-wc-aps-select2' );
 				wp_register_style( 'alg-wc-aps-select2', 'https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css', array(), false );
 				wp_enqueue_style( 'alg-wc-aps-select2' );

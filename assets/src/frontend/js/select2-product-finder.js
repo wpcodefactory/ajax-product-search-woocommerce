@@ -1,7 +1,7 @@
 /**
  * @summary Finds products using select2
  *
- * @version   1.0.2
+ * @version   1.0.5
  * @since     1.0.0
  * @requires  jQuery.js
  */
@@ -38,6 +38,7 @@ jQuery(function ($) {
 			search_inputs.each(function () {
 				var this_input = $(this);
 				this_input.select2({
+					dropdownCssClass :'alg-wc-aps-container',
 					minimumResultsForSearch: Infinity,
 					maximumInputLength: 40,
 					minimumInputLength: select2_product_finder.minimum_input_length(this_input),

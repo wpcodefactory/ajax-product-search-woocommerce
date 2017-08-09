@@ -66,6 +66,7 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 = 1.0.5 - 09/08/2017 =
 * Fix shortcode echoing
+* Add class 'alg-wc-aps-container' to select 2 container
 
 = 1.0.4 - 20/04/2017 =
 * Fix metabox about pro
@@ -94,3 +95,4 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 = 1.0.5 =
 * Fix shortcode echoing
+* Add class 'alg-wc-aps-container' to select 2 container
