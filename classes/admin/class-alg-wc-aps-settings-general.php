@@ -62,6 +62,10 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 								'img_src' => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/styling-options.gif',
 							),
 							array(
+								'trigger' => __( 'A more complete search widget', 'ajax-product-search-woocommerce'),
+								'img_src' => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/widget.png',
+							),
+							array(
 								'trigger'     => __( 'Select multiple results', 'ajax-product-search-woocommerce' ),
 								'img_src'     => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/multiple-selection.png',
 							),
