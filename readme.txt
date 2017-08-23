@@ -3,7 +3,7 @@ Contributors: algoritmika,karzin,anbinder
 Tags: woocommerce,ajax,search products,search,autocomplete,products
 Requires at least: 4.4
 Tested up to: 4.8
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -64,6 +64,9 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Changelog ==
 
+= 1.0.6 - 23/08/2017 =
+* More info about pro version
+
 = 1.0.5 - 09/08/2017 =
 * Fix shortcode echoing
 * Add class 'alg-wc-aps-dropdown' to select 2 dropdown
@@ -94,7 +97,5 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Upgrade Notice ==
 
-= 1.0.5 =
-* Fix shortcode echoing
-* Add class 'alg-wc-aps-dropdown' to select 2 dropdown
-* Add class 'alg-wc-aps-select' to select 2
+= 1.0.6 =
+* More info about pro version

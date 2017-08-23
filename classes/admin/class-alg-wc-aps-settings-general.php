@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce - General Section Settings
  *
- * @version 1.0.4
+ * @version 1.0.6
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -36,7 +36,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 		/**
 		 * get_settings.
 		 *
-		 * @version 1.0.4
+		 * @version 1.0.6
 		 * @since   1.0.0
 		 */
 		function get_settings( $settings = null ) {
@@ -58,7 +58,11 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_General' ) ) {
 								'img_src' => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/autocomplete.png',
 							),
 							array(
-								'trigger'     => __( 'Option to select multiple results', 'ajax-product-search-woocommerce' ),
+								'trigger' => __( 'Play with some styling options', 'ajax-product-search-woocommerce'),
+								'img_src' => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/styling-options.gif',
+							),
+							array(
+								'trigger'     => __( 'Select multiple results', 'ajax-product-search-woocommerce' ),
 								'img_src'     => plugin_dir_url( __FILE__ ) . '../../assets/dist/images/multiple-selection.png',
 							),
 							array(
