@@ -67,6 +67,7 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 = 1.0.7 - 25/07/2018 =
 * Make compatible with Product Visibility by User Role for WooCommerce plugin
 * Update WooCommerce requirement
+* Remove package-lock.json
 
 = 1.0.6 - 23/08/2017 =
 * More info about pro version
@@ -104,3 +105,4 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 = 1.0.7 - 25/07/2018 =
 * Make compatible with Product Visibility by User Role for WooCommerce plugin
 * Update WooCommerce requirement
+* Remove package-lock.json
