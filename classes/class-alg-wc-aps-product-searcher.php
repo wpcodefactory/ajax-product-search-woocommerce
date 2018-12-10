@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce  - Product searcher
  *
- * @version 1.0.7
+ * @version 1.0.8
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -163,12 +163,13 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 		/**
 		 * Searches products
 		 *
-		 * @version 1.0.7
+		 * @version 1.0.8
 		 * @since   1.0.0
 		 */
 		public function search_products( $args = array() ) {
 			$args = wp_parse_args( $args, array(
 				'post_type'           => 'product',
+				'post_status'         => 'publish',
 				's'                   => '',
 				'paged'               => 1,
 				'orderby'             => 'title',
@@ -189,7 +190,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher' ) ) {
 				}
 			} else {
 				$the_query = new WP_Query( $args );
-			}			
+			}
 
 			return $the_query;
 		}

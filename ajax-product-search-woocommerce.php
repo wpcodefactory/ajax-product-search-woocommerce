@@ -2,12 +2,12 @@
 /*
 Plugin Name: Ajax Product Search for WooCommerce by Algoritmika
 Description: Provides an autocomplete feature to search WooCommerce products
-Version: 1.0.7
+Version: 1.0.8
 Author: Algoritmika Ltd
 Author URI: http://algoritmika.com
 Copyright: © 2018 Algoritmika Ltd.
 WC requires at least: 3.0.0
-WC tested up to: 3.4
+WC tested up to: 3.5
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: ajax-product-search-woocommerce

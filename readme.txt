@@ -2,8 +2,8 @@
 Contributors: algoritmika,karzin,anbinder
 Tags: woocommerce,ajax,search products,search,autocomplete,products
 Requires at least: 4.4
-Tested up to: 4.9
-Stable tag: 1.0.7
+Tested up to: 5.0
+Stable tag: 1.0.8
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -64,6 +64,11 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Changelog ==
 
+= 1.0.8 - 09/12/2018 =
+* Search only for 'publish' post_status
+* Update WC tested up to
+* Update WP tested up to
+
 = 1.0.7 - 25/07/2018 =
 * Make compatible with Product Visibility by User Role for WooCommerce plugin
 * Update WooCommerce requirement
@@ -102,7 +107,7 @@ Start by visiting plugin settings at **WooCommerce > Settings > Ajax Product Sea
 
 == Upgrade Notice ==
 
-= 1.0.7 - 25/07/2018 =
-* Make compatible with Product Visibility by User Role for WooCommerce plugin
-* Update WooCommerce requirement
-* Remove package-lock.json
+= 1.0.8 =
+* Search only for 'publish' post_status
+* Update WC tested up to
+* Update WP tested up to
