@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce  - Product searcher shortcode manager
  *
- * @version 1.0.5
+ * @version 1.0.9
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -29,7 +29,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 		/**
 		 * Creates the search input.
 		 *
-		 * @version 1.0.5
+		 * @version 1.0.9
 		 * @since   1.0.0
 		 */
 		public function create_search_input( $atts ) {
@@ -37,7 +37,7 @@ if ( ! class_exists( 'Alg_WC_APS_Product_Searcher_Shortcode_Manager' ) ) {
 			$class      = str_replace( ".", "", $alg_wc_aps->get_searcher()->get_search_input_css_selector() );
 
 			$atts = shortcode_atts( array(
-				'placeholder' => __( 'Search products', 'ajax-product-search-woocommerce' ),
+				'placeholder' => sanitize_text_field( get_option( Alg_WC_APS_Settings_Texts::OPTION_PLACEHOLDER, __( 'Search products', 'ajax-product-search-woocommerce' ) ) ),
 				'class'       => $class,
 				'style'       => 'width:100%;',
 			), $atts, self::TAG_SEARCH_INPUT );

@@ -2,7 +2,7 @@
 /**
  * Ajax Product Search for WooCommerce - Texts Settings
  *
- * @version 1.0.0
+ * @version 1.0.9
  * @since   1.0.0
  * @author  Algoritmika Ltd.
  */
@@ -22,6 +22,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 		const OPTION_NO_RESULTS             = 'alg_wc_aps_texts_no_results';
 		const OPTION_SEARCHING              = 'alg_wc_aps_texts_searching';
 		const OPTION_VIEW_ALL_RESULTS       = 'alg_wc_aps_texts_view_all_results';
+		const OPTION_PLACEHOLDER            = 'alg_wc_aps_texts_placeholder';
 
 		/**
 		 * Constructor.
@@ -38,7 +39,7 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 		/**
 		 * get_settings.
 		 *
-		 * @version 1.0.0
+		 * @version 1.0.9
 		 * @since   1.0.0
 		 */
 		function get_settings( $settings = null ) {
@@ -105,7 +106,13 @@ if ( ! class_exists( 'Alg_WC_APS_Settings_Texts' ) ) {
 					'id'       => self::OPTION_SEARCHING,
 					'default'  => __( 'Loading...', 'ajax-product-search-woocommerce' ),
 					'type'     => 'textarea',
-
+				),
+				array(
+					'title'    => __( 'Search products', 'ajax-product-search-woocommerce' ),
+					'desc'     => __( 'Search input placeholder', 'ajax-product-search-woocommerce' ),
+					'id'       => self::OPTION_PLACEHOLDER,
+					'default'  => __( 'Search products', 'ajax-product-search-woocommerce' ),
+					'type'     => 'textarea',
 				),
 				array(
 					'type' => 'sectionend',
