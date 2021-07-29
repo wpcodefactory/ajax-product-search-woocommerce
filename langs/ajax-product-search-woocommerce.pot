@@ -1,0 +1,459 @@
+#: includes/class-alg-wc-ajax-product-search.php:133
+msgid "Settings"
+msgstr ""
+
+#: includes/class-alg-wc-ajax-product-search.php:136
+msgid "Go Pro"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:40
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:47
+#, php-format
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:42
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:56
+#, php-format
+msgid "Please delete %d or more characters"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:44
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:64
+msgid "Error loading results"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:46
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:72
+msgid "Loading more..."
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:48
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:89
+msgid "No results found"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:50
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:97
+msgid "Loading..."
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-shortcode-manager.php:36
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:45
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:76
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:101
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:104
+msgid "Search products"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:25
+msgid "Live Product Search"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:26
+msgid "An input that searches WooCommerce products using AJAX."
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:66
+msgid "Title:"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher-widget-search-input.php:73
+msgid "Placeholder:"
+msgstr ""
+
+#: includes/classes/class-alg-wc-aps-product-searcher.php:130
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:81
+#, php-format
+msgid "View all results (%d)"
+msgstr ""
+
+#: includes/pro/class-alg-wc-ajax-product-search-pro.php:259
+msgid "Width:"
+msgstr ""
+
+#: includes/pro/class-alg-wc-ajax-product-search-pro.php:262
+#, php-format
+msgid "Units allowed: %s"
+msgstr ""
+
+#: includes/pro/class-alg-wc-ajax-product-search-pro.php:268
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:128
+msgid "Multiple selection"
+msgstr ""
+
+#: includes/pro/class-alg-wc-ajax-product-search-pro.php:273
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:140
+msgid "Automatic redirection"
+msgstr ""
+
+#: includes/pro/class-alg-wc-ajax-product-search-pro.php:323
+msgid "Styling options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:24
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:39
+msgid "Live Search Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:40
+msgid "AJAX product search options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:45
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:25
+msgid "Live Search"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:46
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:59
+msgid "General Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:64
+msgid "Load Select2"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:65
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:129
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:141
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:44
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:61
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:70
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:79
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:66
+#, php-format
+msgid ""
+"Loads most recent version of <a target=\"_blank\" href=\"%s\">Select2</a>."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:67
+msgid ""
+"Mark this only if you are not loading Select2 nowhere else. Select2 is "
+"responsible for improving the html select element."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:68
+msgid ""
+"It is required for this plugin to work. If you are uncertain, please leave "
+"it enabled."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:78
+msgid "Take a look on some of its features:"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:81
+msgid "Display product thumbnail, price and categories on search results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:85
+msgid "Play with some styling options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:89
+msgid "A more complete search widget"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:93
+msgid "Select multiple results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:97
+msgid "Choose if you want to redirect on search result selection"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:100
+msgid "Support"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:108
+msgid ""
+"Do you like the free version of this plugin? Imagine what the Pro version "
+"can do for you!"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:109
+#, php-format
+msgid ""
+"Check it out <a target=\"_blank\" href=\"%1$s\">here</a> or on this link: <a "
+"target=\"_blank\" href=\"%1$s\">%1$s</a>"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:121
+msgid "Advanced"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:130
+msgid "Allows multiple value selection."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:131
+msgid ""
+"The search input will not automatically redirect to the selected search "
+"result."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:132
+#, php-format
+msgid ""
+"You can use the shortcode %s to turn on this feature on a separated field."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:142
+msgid "Redirects automatically to the selected search result."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:143
+msgid "It does not work with \"Multiple selection\"."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:144
+#, php-format
+msgid ""
+"You can use the shortcode %s to turn off this feature on a separated field."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:24
+msgid "Search"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:38
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:43
+msgid "Cache"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:45
+msgid "Saves search results in a transient."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:46
+msgid "It helps improving search speed in high traffic sites."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:52
+msgid "Cache timeout"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:53
+msgid "hours"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:54
+msgid "The amount of time results will be stored in transient (in hours)."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:24
+msgid "Style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:40
+msgid "Style Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:54
+msgid "Search Results Template"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:55
+msgid "Options regarding the search results template."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:60
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:62
+msgid "Shows the product thumbnail."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:69
+msgid "Price"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:71
+msgid "Shows the product price."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:78
+msgid "Category"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:80
+msgid "Shows the product category."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:94
+msgid "General Style "
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:96
+msgid "General style options."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:100
+msgid "Placeholder color"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:101
+msgid "Placeholder text color."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:115
+msgid "Search Results Style"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:117
+msgid "Options regarding the search results style."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:121
+msgid "Alignment"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:122
+msgid "General alignment of search results."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:127
+msgid "Left"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:128
+msgid "Right"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:133
+msgid "Text color"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:134
+msgid "Text color of search results."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:141
+msgid "Text color - hover"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:142
+msgid "Text color of search result when mouse is over it."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:149
+msgid "Background color - hover"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-style.php:150
+msgid "The background color of a search result when mouse is over it."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:24
+msgid "Texts"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:38
+msgid "Text Options"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:43
+msgid "Input too short"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:44
+msgid "Text displayed when input is not long enough to start searching"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:45
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:54
+#, php-format
+msgid ""
+"%d is going to be replaced by the amount of characters missing to start "
+"searching."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:52
+msgid "Input too long"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:53
+msgid "Text displayed when input exceeded the maximum characters allowed"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:61
+msgid "Error loading"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:62
+msgid "Text displayed when some error occurs"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:69
+msgid "Loading more"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:70
+msgid "Text displayed when there are more results to be loaded"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:77
+msgid "View all results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:78
+msgid ""
+"Text displayed with a link pointing to a page showing all search results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:79
+#, php-format
+msgid "%d is going to be replaced by search results amount."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:86
+msgid "No results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:87
+msgid "Text displayed when there are no found results"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:94
+msgid "Loading"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:95
+msgid "Text displayed when products are being searched"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:102
+msgid "Search input placeholder"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:240
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:245
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:246
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:247
+msgid "Check the box and save changes to reset."
+msgstr ""
+
+#: includes/settings/class-alg-wc-ajax-product-search-settings.php:286
+msgid "Your settings have been reset."
+msgstr ""
