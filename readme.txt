@@ -1,9 +1,9 @@
 === Live Search for WooCommerce ===
-Contributors: algoritmika, anbinder, karzin
+Contributors: wpcodefactory, algoritmika, anbinder, karzin
 Tags: woocommerce, live search, product search, woocommerce search, ajax search, ajax, search products, search, autocomplete, products, woo commerce
 Requires at least: 4.4
 Tested up to: 5.8
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -57,7 +57,7 @@ Start by visiting plugin settings at "WooCommerce > Settings > Live Search".
 
 = How can I contribute? Is there a GitHub repository? =
 
-If you are interested in contributing - head over to the Live Search for WooCommerce plugin [GitHub repository](https://github.com/algoritmika/ajax-product-search-woocommerce "Live Search for WooCommerce plugin GitHub repository") to find out how you can pitch in.
+If you are interested in contributing - head over to the Live Search for WooCommerce plugin [GitHub repository](https://github.com/wpcodefactory/ajax-product-search-woocommerce "Live Search for WooCommerce plugin GitHub repository") to find out how you can pitch in.
 
 == Installation ==
 
@@ -73,6 +73,10 @@ If you are interested in contributing - head over to the Live Search for WooComm
 4. Saves results in cache improving search speed and saving bandwidth
 
 == Changelog ==
+
+= 2.1.1 - 24/11/2023 =
+* Move to WPFactory.
+* Add deploy script.
 
 = 2.1.0 - 29/07/2021 =
 * Dev - Admin settings descriptions updated.

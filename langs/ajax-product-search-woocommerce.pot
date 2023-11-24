@@ -1,5 +1,37 @@
-#: includes/class-alg-wc-ajax-product-search.php:133
-msgid "Settings"
+# Copyright (C) 2023 WPFactory
+# This file is distributed under the same license as the Live Search for WooCommerce Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: ajax-product-search-woocommerce 2.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ajax-product-search-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-24T23:12:05+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: ajax-product-search-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Live Search for WooCommerce Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpfactory.com/item/live-search-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides an input with autocomplete feature to search WooCommerce products."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPFactory"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpfactory.com"
 msgstr ""
 
 #: includes/class-alg-wc-ajax-product-search.php:136
@@ -8,13 +40,11 @@ msgstr ""
 
 #: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:40
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:47
-#, php-format
 msgid "Please enter %d or more characters"
 msgstr ""
 
 #: includes/classes/class-alg-wc-aps-product-searcher-scripts-manager.php:42
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:56
-#, php-format
 msgid "Please delete %d or more characters"
 msgstr ""
 
@@ -64,7 +94,6 @@ msgstr ""
 
 #: includes/classes/class-alg-wc-aps-product-searcher.php:130
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:81
-#, php-format
 msgid "View all results (%d)"
 msgstr ""
 
@@ -73,7 +102,6 @@ msgid "Width:"
 msgstr ""
 
 #: includes/pro/class-alg-wc-ajax-product-search-pro.php:262
-#, php-format
 msgid "Units allowed: %s"
 msgstr ""
 
@@ -131,21 +159,15 @@ msgid "Enable"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:66
-#, php-format
-msgid ""
-"Loads most recent version of <a target=\"_blank\" href=\"%s\">Select2</a>."
+msgid "Loads most recent version of <a target=\"_blank\" href=\"%s\">Select2</a>."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:67
-msgid ""
-"Mark this only if you are not loading Select2 nowhere else. Select2 is "
-"responsible for improving the html select element."
+msgid "Mark this only if you are not loading Select2 nowhere else. Select2 is responsible for improving the html select element."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:68
-msgid ""
-"It is required for this plugin to work. If you are uncertain, please leave "
-"it enabled."
+msgid "It is required for this plugin to work. If you are uncertain, please leave it enabled."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:78
@@ -177,16 +199,11 @@ msgid "Support"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:108
-msgid ""
-"Do you like the free version of this plugin? Imagine what the Pro version "
-"can do for you!"
+msgid "Do you like the free version of this plugin? Imagine what the Pro version can do for you!"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:109
-#, php-format
-msgid ""
-"Check it out <a target=\"_blank\" href=\"%1$s\">here</a> or on this link: <a "
-"target=\"_blank\" href=\"%1$s\">%1$s</a>"
+msgid "Check it out <a target=\"_blank\" href=\"%1$s\">here</a> or on this link: <a target=\"_blank\" href=\"%1$s\">%1$s</a>"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:121
@@ -198,15 +215,11 @@ msgid "Allows multiple value selection."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:131
-msgid ""
-"The search input will not automatically redirect to the selected search "
-"result."
+msgid "The search input will not automatically redirect to the selected search result."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:132
-#, php-format
-msgid ""
-"You can use the shortcode %s to turn on this feature on a separated field."
+msgid "You can use the shortcode %s to turn on this feature on a separated field."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:142
@@ -218,9 +231,7 @@ msgid "It does not work with \"Multiple selection\"."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-general.php:144
-#, php-format
-msgid ""
-"You can use the shortcode %s to turn off this feature on a separated field."
+msgid "You can use the shortcode %s to turn off this feature on a separated field."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-search.php:24
@@ -374,10 +385,7 @@ msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:45
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:54
-#, php-format
-msgid ""
-"%d is going to be replaced by the amount of characters missing to start "
-"searching."
+msgid "%d is going to be replaced by the amount of characters missing to start searching."
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:52
@@ -409,12 +417,10 @@ msgid "View all results"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:78
-msgid ""
-"Text displayed with a link pointing to a page showing all search results"
+msgid "Text displayed with a link pointing to a page showing all search results"
 msgstr ""
 
 #: includes/settings/class-alg-wc-ajax-product-search-settings-texts.php:79
-#, php-format
 msgid "%d is going to be replaced by search results amount."
 msgstr ""
 

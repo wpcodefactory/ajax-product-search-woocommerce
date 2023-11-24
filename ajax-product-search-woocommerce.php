@@ -3,9 +3,10 @@
 Plugin Name: Live Search for WooCommerce
 Plugin URI: https://wpfactory.com/item/live-search-for-woocommerce/
 Description: Provides an input with autocomplete feature to search WooCommerce products.
-Version: 2.1.0
-Author: Algoritmika Ltd
-Author URI: https://algoritmika.com
+Version: 2.1.1
+Author: WPFactory
+Author URI: https://wpfactory.com
+Copyright: © 2023 WPFactory
 Text Domain: ajax-product-search-woocommerce
 Domain Path: /langs
 WC requires at least: 3.0.0
@@ -30,7 +31,7 @@ if ( 'ajax-product-search-woocommerce.php' === basename( __FILE__ ) ) {
 	}
 }
 
-defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION' ) || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION', '2.1.0' );
+defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION' ) || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION', '2.1.1' );
 
 defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_FILE' )    || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_FILE',    __FILE__ );
 
