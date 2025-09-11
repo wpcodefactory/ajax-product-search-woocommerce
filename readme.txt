@@ -1,9 +1,9 @@
 === Live Search for WooCommerce ===
-Contributors: wpcodefactory, algoritmika, anbinder, karzin
+Contributors: wpcodefactory, omardabbas, karzin, anbinder
 Tags: woocommerce, live search, product search, woocommerce search, ajax search, ajax, search products, search, autocomplete, products, woo commerce
 Requires at least: 4.4
-Tested up to: 5.8
-Stable tag: 2.1.1
+Tested up to: 6.8
+Stable tag: 2.1.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -73,6 +73,10 @@ If you are interested in contributing - head over to the Live Search for WooComm
 4. Saves results in cache improving search speed and saving bandwidth
 
 == Changelog ==
+
+= 2.1.2 - 11/09/2025 =
+* WC tested up to: 10.1.
+* Tested up to: 6.8.
 
 = 2.1.1 - 24/11/2023 =
 * Move to WPFactory.
