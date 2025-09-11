@@ -30,7 +30,7 @@ if ( 'ajax-product-search-woocommerce.php' === basename( __FILE__ ) ) {
 	}
 }
 
-defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION' ) || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION', '2.1.1' );
+defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION' ) || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_VERSION', '2.1.2' );
 
 defined( 'ALG_WC_AJAX_PRODUCT_SEARCH_FILE' )    || define( 'ALG_WC_AJAX_PRODUCT_SEARCH_FILE',    __FILE__ );
 
